@@ -5,7 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Aman Priyanshu - AI x Privacy Research</title>
 
-  <!-- Fonts -->
+  <!-- Font Awesome & Academicons for Icons -->
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"
+  />
+
+  <!-- Google Fonts -->
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
     rel="stylesheet"
@@ -198,6 +208,12 @@
       margin-bottom: 2rem;
       max-width: 600px;
     }
+    .hero-image {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* So that icons are centered under the image */
+    }
     .hero-image img {
       width: 100%;
       height: auto;
@@ -208,6 +224,36 @@
     }
     .hero-image:hover img {
       transform: perspective(1000px) rotateY(0deg);
+    }
+
+    /* Icons row under hero image */
+    .hero-links {
+      margin-top: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 1.2rem;
+      font-size: 1.6rem; /* slightly bigger icon size */
+    }
+    .hero-links a {
+      color: var(--deep-navy);
+      transition: color var(--transition-duration) ease;
+      text-decoration: none;
+    }
+    .hero-links a:hover {
+      color: var(--ai-purple);
+    }
+    /* Resume link on a new line */
+    .resume-link {
+      margin-top: 0.6rem;
+    }
+    .resume-link a {
+      font-weight: 500;
+      color: var(--privacy-green);
+      text-decoration: none;
+    }
+    .resume-link a:hover {
+      text-decoration: underline;
+      color: var(--ai-purple);
     }
 
     /* Media Coverage (Horizontal Scroll) */
@@ -250,10 +296,8 @@
     .publications-container {
       margin-top: 1rem;
       margin-bottom: 1rem;
-      /* no box or border around everything, just a container */
     }
     .publication-entry {
-      /* Minimal styling: left border for emphasis */
       border-left: 2px solid #ddd;
       padding-left: 1rem;
       margin-bottom: 1rem;
@@ -314,12 +358,12 @@
       font-weight: 500;
     }
 
-    /* Experience (Vertically Scrollable - old style retained) */
+    /* Experience (Vertically Scrollable - old style) */
     .experience-section {
       background: white;
     }
     .experience-container {
-      height: 500px; /* We keep the old style with a vertical scroll */
+      height: 500px; /* keeps old vertical scroll */
       overflow-y: auto;
       border: 1px solid rgba(32, 106, 93, 0.2);
       border-radius: 12px;
@@ -383,7 +427,7 @@
       right: -40px;
     }
 
-    /* Education Section (unchanged, no special scroll) */
+    /* Education Section */
     .education-section {
       background: white;
     }
@@ -409,7 +453,6 @@
     .projects-container {
       margin-top: 1rem;
       margin-bottom: 1rem;
-      /* no box or border around everything, just a container */
     }
     .project-entry {
       border-left: 2px solid #ddd;
@@ -611,19 +654,63 @@
           <h1>Aman Priyanshu</h1>
           <h2>AI Security & Safety Researcher</h2>
           <p>
-            Hi! I'm Aman Priyanshu, an AI Researcher at Cisco, specializing in AI Safety
-            and Security. I graduated 
-            Masters student at Carnegie Mellon University, specializing in Privacy
-            Engineering. Research interests include Privacy-Preserving Machine
-            Learning, Explainable AI, and AI Security. Currently an AI Security
-            Researcher at Robust Intelligence.
+            Hi, I'm Aman! 
+            <br><br>
+            I'm an AI Researcher at Cisco specializing in AI safety, security, and privacy leakages in AI Systems. I focus on uncovering vulnerabilities in foundation models like those released by OpenAI, Google, Meta, and other leading AI companies - I was lucky to have some of this work gain media attention. In my brief time as a researcher, I've been fortunate to publish in various AI conferences, journals, and workshops, with my work spanning privacy-preserving machine learning, AI security, and prompt engineering. I aim to bridge the gap between theoretical vulnerabilities and real-world implications.
+            <br><br>
+            During the course of my education and early research, I was invited to contribute to critical AI safety initiatives including OpenAI's Red Teaming Network and Anthropic's Model Safety Bug Bounty Program (though couldn't participate due to F1-visa restrictions). I've also served as a Research Lead and Project Collaborator at OpenMined, advancing privacy-preserving machine learning techniques.
+            <br><br>
+            I completed my Masters in Privacy Engineering from Carnegie Mellon University, conducting research on LLMs and cybersecurity under Professor Norman Sadeh, while externally collaborating with Professor Ashique KhudaBukush (Rochester Institute of Technology) on LLM political polarization and jailbreak-assisted toxic rabbit hole evaluations. Previously, I was recognized as an AAAI Undergraduate Consortium Scholar and MITACS Research Scholar for my contributions to Privacy-Preserving Machine Learning and AI Safety.
           </p>
         </div>
+
+        <!-- Hero Image + Social Icons Underneath -->
         <div class="hero-image">
           <img
             src="https://amanpriyanshu.github.io/images/AmanPriyanshu.jpg"
             alt="Aman Priyanshu"
           />
+          <!-- Horizontal line of icons under the image -->
+          <div class="hero-links">
+            <!-- Email Icon -->
+            <a href="mailto:amanpriyanshusms2001@gmail.com" target="_blank" title="Email">
+              <i class="fas fa-envelope-square"></i>
+            </a>
+            <!-- GitHub -->
+            <a href="https://github.com/AmanPriyanshu" target="_blank" title="GitHub">
+              <i class="fab fa-github-square"></i>
+            </a>
+            <!-- Google Scholar -->
+            <a
+              href="https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID"
+              target="_blank"
+              title="Google Scholar"
+            >
+              <i class="ai ai-google-scholar-square"></i>
+            </a>
+            <!-- Twitter -->
+            <a
+              href="https://twitter.com/AmanPriyanshu6"
+              target="_blank"
+              title="Twitter"
+            >
+              <i class="fab fa-twitter-square"></i>
+            </a>
+            <!-- LinkedIn -->
+            <a
+              href="https://linkedin.com/in/aman-priyanshu"
+              target="_blank"
+              title="LinkedIn"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+          <!-- Next line: Resume link -->
+          <div class="resume-link">
+            <a href="https://yourdomain.com/path-to-resume.pdf" target="_blank"
+              >Resume</a
+            >
+          </div>
         </div>
       </div>
     </div>
@@ -668,35 +755,29 @@
       <h2 class="section-title">Publications</h2>
       <div class="publications-container">
         <div class="publication-entry">
-          <div>
-            <span class="publication-year">2024</span>
-            <h3>Through the Lens of LLMs: Unveiling Differential Privacy Challenges</h3>
-            <p style="margin: 0.3rem 0; color:#505050;">
-              USENIX Conference on Privacy Engineering Practice and Respect
-            </p>
-          </div>
+          <span class="publication-year">2024</span>
+          <h3>Through the Lens of LLMs: Unveiling Differential Privacy Challenges</h3>
+          <p style="margin: 0.3rem 0; color:#505050;">
+            USENIX Conference on Privacy Engineering Practice and Respect
+          </p>
         </div>
 
         <div class="publication-entry">
-          <div>
-            <span class="publication-year">2023</span>
-            <h3>Are Chatbots Ready for Privacy-Sensitive Applications?</h3>
-            <p style="margin: 0.3rem 0; color:#505050;">
-              An Investigation into Input Regurgitation and Prompt-Induced
-              Sanitization
-            </p>
-          </div>
+          <span class="publication-year">2023</span>
+          <h3>Are Chatbots Ready for Privacy-Sensitive Applications?</h3>
+          <p style="margin: 0.3rem 0; color:#505050;">
+            An Investigation into Input Regurgitation and Prompt-Induced
+            Sanitization
+          </p>
         </div>
 
         <div class="publication-entry">
-          <div>
-            <span class="publication-year">2023</span>
-            <h3>Guarding Your Social Circle</h3>
-            <p style="margin: 0.3rem 0; color:#505050;">
-              Strategies to Protect Key Connections and Edge Importance -
-              Security and Communication Networks
-            </p>
-          </div>
+          <span class="publication-year">2023</span>
+          <h3>Guarding Your Social Circle</h3>
+          <p style="margin: 0.3rem 0; color:#505050;">
+            Strategies to Protect Key Connections and Edge Importance —
+            Security and Communication Networks
+          </p>
         </div>
       </div>
     </div>
@@ -731,7 +812,6 @@
           </p>
           <a href="#">Read More</a>
         </div>
-        <!-- Add more blog cards as needed -->
       </div>
     </div>
   </section>
@@ -804,8 +884,8 @@
             <strong>Jun 2023</strong>
           </p>
           <p style="margin-top: 0.5rem;">
-            Specify your dataset of choice, and ProTaska-GPT will understand the
-            dataset with tasks, tutorials, and actionable insights for it.
+            Specify your dataset of choice, and ProTaska-GPT will understand
+            the dataset with tasks, tutorials, and actionable insights for it.
             Accelerate your data science journey with ease and efficiency!
           </p>
         </div>
@@ -838,10 +918,9 @@
           </p>
           <p style="margin-top: 0.5rem;">
             Creating Differentially Private Synthetic Data Generation for
-            tabular, relational and time series data.
+            tabular, relational, and time series data.
           </p>
         </div>
-        <!-- Add more project entries as needed -->
       </div>
     </div>
   </section>
