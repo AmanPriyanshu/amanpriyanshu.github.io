@@ -1,0 +1,1224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aman Priyanshu - AI x Privacy Research</title>
+
+  <!-- Font Awesome & Academicons for Icons -->
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"
+  />
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet"
+  />
+
+  <style>
+    :root {
+      --cream-bg: #FAF3E0;
+      --deep-navy: #1A2B3C;
+      --privacy-green: #206A5D;
+      --ai-purple: #614BC3;
+      --accent-gold: #B8860B;
+      --text-dark: #2C2C2C;
+      --noise-opacity: 0.4;
+      --card-spacing: 1.5rem;
+      --scrollbar-width: 6px;
+      --scrollbar-thumb: var(--privacy-green);
+      --transition-duration: 0.3s;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: var(--cream-bg);
+      color: var(--text-dark);
+      font-family: "Inter", system-ui, sans-serif;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+
+    .section {
+      padding: 6rem 0;
+    }
+
+    .section-title {
+      font-size: 2.5rem;
+      color: var(--deep-navy);
+      margin-bottom: 3rem;
+      position: relative;
+    }
+    .section-title::after {
+      content: "";
+      display: block;
+      width: 60px;
+      height: 4px;
+      background: linear-gradient(90deg, var(--privacy-green), var(--ai-purple));
+      margin-top: 0.5rem;
+    }
+
+    /* Navigation */
+    .nav {
+      background: rgba(255, 255, 255, 0.95);
+      border-bottom: 1px solid rgba(32, 106, 93, 0.2);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(8px);
+    }
+    .nav-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .nav-brand {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--deep-navy);
+    }
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      align-items: center;
+    }
+    .nav-links a {
+      color: var(--deep-navy);
+      text-decoration: none;
+      font-weight: 500;
+      transition: color var(--transition-duration) ease;
+      position: relative;
+    }
+    .nav-links a::after {
+      content: "";
+      position: absolute;
+      bottom: -4px;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background: linear-gradient(90deg, var(--privacy-green), var(--ai-purple));
+      transition: width var(--transition-duration) ease;
+    }
+    .nav-links a:hover::after {
+      width: 100%;
+    }
+
+    .epsilon-badge {
+      font-family: "JetBrains Mono", monospace;
+      font-size: 0.9rem;
+      color: var(--privacy-green);
+      border: 1px solid currentColor;
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      opacity: 0.7;
+      transition: opacity var(--transition-duration) ease;
+      cursor: pointer;
+    }
+    .epsilon-badge:hover {
+      opacity: 1;
+    }
+
+    /* Mobile Menu */
+    .mobile-menu-icon {
+      display: none;
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+    @media (max-width: 768px) {
+      .nav-links {
+        display: none;
+        flex-direction: column;
+        gap: 1rem;
+        background: rgba(255, 255, 255, 0.95);
+        position: absolute;
+        top: 60px;
+        right: 2rem;
+        padding: 1rem 2rem;
+        border: 1px solid rgba(32, 106, 93, 0.2);
+        border-radius: 8px;
+      }
+      .mobile-menu-icon {
+        display: block;
+        color: var(--deep-navy);
+      }
+    }
+    .show-nav {
+      display: flex !important;
+    }
+
+    /* Hero Section */
+    .hero {
+      position: relative;
+      padding: 8rem 0 6rem;
+      background: linear-gradient(
+        rgba(255, 255, 255, 0.9),
+        rgba(250, 243, 224, 0.9)
+      );
+    }
+    .hero-content {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 4rem;
+      align-items: center;
+    }
+    .hero-text h1 {
+      font-size: 4rem;
+      color: var(--deep-navy);
+      line-height: 1.2;
+      margin-bottom: 1rem;
+    }
+    .hero-text h2 {
+      font-size: 1.8rem;
+      margin-bottom: 2rem;
+      background: linear-gradient(90deg, var(--privacy-green), var(--ai-purple));
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+    .hero-text p {
+      font-size: 1.1rem;
+      color: var(--text-dark);
+      margin-bottom: 2rem;
+      max-width: 600px;
+    }
+    .hero-image {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* So that icons are centered under the image */
+    }
+    .hero-image img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+      transform: perspective(1000px) rotateY(-5deg);
+      transition: transform 0.5s ease;
+    }
+    .hero-image:hover img {
+      transform: perspective(1000px) rotateY(0deg);
+    }
+
+    /* Icons row under hero image */
+    .hero-links {
+      margin-top: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 1.2rem;
+      font-size: 1.6rem; /* slightly bigger icon size */
+    }
+    .hero-links a {
+      color: var(--deep-navy);
+      transition: color var(--transition-duration) ease;
+      text-decoration: none;
+    }
+    .hero-links a:hover {
+      color: var(--ai-purple);
+    }
+    /* Resume link on a new line */
+    .resume-link {
+      margin-top: 0.6rem;
+    }
+    .resume-link a {
+      font-weight: 500;
+      color: var(--privacy-green);
+      text-decoration: none;
+    }
+    .resume-link a:hover {
+      text-decoration: underline;
+      color: var(--ai-purple);
+    }
+
+    /* Toggle button for switching bio */
+    #toggleBioButton {
+      margin-top: 1rem;
+      padding: 0.4rem 0.8rem;
+      background: var(--ai-purple);
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.95rem;
+      transition: background var(--transition-duration) ease;
+    }
+    #toggleBioButton:hover {
+      background: var(--privacy-green);
+    }
+
+    /* Media Coverage (Horizontal Scroll) */
+    .media-section {
+      background: white;
+    }
+    .media-grid {
+      display: flex;
+      gap: 2rem;
+      overflow-x: auto;
+      padding: 1rem 0;
+    }
+    .media-card {
+      flex: 0 0 auto;
+      width: 300px;
+      background: white;
+      border: 1px solid rgba(32, 106, 93, 0.2);
+      border-radius: 12px;
+      padding: var(--card-spacing);
+      transition: transform var(--transition-duration) ease,
+        box-shadow var(--transition-duration) ease,
+        border-color var(--transition-duration) ease;
+    }
+    .media-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      border-color: var(--privacy-green);
+    }
+    .source-tag {
+      display: inline-block;
+      padding: 0.2rem 0.8rem;
+      background: rgba(32, 106, 93, 0.1);
+      color: var(--privacy-green);
+      border-radius: 4px;
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+    }
+
+    /* Publications (Minimal, condensed) */
+    .publications-container {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+    .publication-entry {
+      border-left: 2px solid #ddd;
+      padding-left: 1rem;
+      margin-bottom: 1rem;
+      font-size: 0.95rem;
+      line-height: 1.5;
+      color: #707070;
+    }
+    .publication-year {
+      color: var(--privacy-green);
+      font-weight: 600;
+      margin-right: 0.5rem;
+      font-size: 1rem;
+    }
+    .publication-entry h3 {
+      font-size: 1.1rem;
+      font-weight: 500;
+      margin-bottom: 0.2rem;
+      color: var(--deep-navy);
+    }
+
+    /* Blogs (Horizontal Scroll) */
+    .blogs-section {
+      background: white;
+    }
+    .blogs-grid {
+      display: flex;
+      gap: 2rem;
+      overflow-x: auto;
+      padding: 1rem 0;
+    }
+    .blog-card {
+      flex: 0 0 auto;
+      width: 300px;
+      background: var(--cream-bg);
+      border: 1px solid rgba(32, 106, 93, 0.2);
+      border-radius: 12px;
+      padding: var(--card-spacing);
+      transition: transform var(--transition-duration) ease,
+        box-shadow var(--transition-duration) ease,
+        border-color var(--transition-duration) ease;
+    }
+    .blog-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      border-color: var(--privacy-green);
+    }
+    .blog-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+    .blog-card a {
+      display: inline-block;
+      margin-top: 1rem;
+      color: var(--ai-purple);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    /* Experience (Vertically Scrollable - old style) */
+    .experience-section {
+      background: white;
+    }
+    .experience-container {
+      height: 500px; /* keeps old vertical scroll */
+      overflow-y: auto;
+      border: 1px solid rgba(32, 106, 93, 0.2);
+      border-radius: 12px;
+      padding: var(--card-spacing);
+      background: white;
+      scrollbar-width: thin;
+      scrollbar-color: var(--privacy-green) transparent;
+    }
+    .timeline {
+      position: relative;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem 0;
+    }
+    .timeline::before {
+      content: "";
+      position: absolute;
+      width: 2px;
+      background: linear-gradient(var(--privacy-green), var(--ai-purple));
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .timeline-item {
+      padding: 1.2rem;
+      background: white;
+      border-radius: 8px;
+      margin-bottom: 2rem;
+      position: relative;
+      width: calc(50% - 30px);
+      border: 1px solid rgba(32, 106, 93, 0.2);
+      transition: border-color var(--transition-duration) ease,
+        box-shadow var(--transition-duration) ease;
+    }
+    .timeline-item:hover {
+      border-color: var(--accent-gold);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+    .timeline-item:nth-child(even) {
+      margin-right: auto;
+      margin-left: 0;
+    }
+    .timeline-item:nth-child(odd) {
+      margin-left: auto;
+      margin-right: 0;
+    }
+    .timeline-item::before {
+      content: "";
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background: var(--privacy-green);
+      border-radius: 50%;
+      left: -40px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    .timeline-item:nth-child(even)::before {
+      left: auto;
+      right: -40px;
+    }
+
+    /* Education Section */
+    .education-section {
+      background: white;
+    }
+    .education-entry {
+      border-left: 2px solid #ddd;
+      padding-left: 1rem;
+      margin-bottom: 1rem;
+      font-size: 0.95rem;
+      color: #707070;
+      line-height: 1.5;
+    }
+    .education-entry h3 {
+      font-size: 1.1rem;
+      font-weight: 500;
+      margin-bottom: 0.2rem;
+      color: var(--deep-navy);
+    }
+
+    /* Projects (Minimal, condensed) */
+    .projects-section {
+      background: white;
+    }
+    .projects-container {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+    .project-entry {
+      border-left: 2px solid #ddd;
+      padding-left: 1rem;
+      margin-bottom: 1rem;
+      font-size: 0.95rem;
+      line-height: 1.5;
+      color: #707070;
+    }
+    .project-entry h3 {
+      font-size: 1.1rem;
+      font-weight: 500;
+      margin-bottom: 0.2rem;
+      color: var(--deep-navy);
+    }
+
+    /* Privacy Games & Demos (Horizontal Scroll) */
+    .privacy-games {
+      background: white;
+    }
+    .games-grid {
+      display: flex;
+      gap: 2rem;
+      overflow-x: auto;
+      padding: 1rem 0;
+    }
+    .game-card {
+      flex: 0 0 auto;
+      width: 300px;
+      background: var(--cream-bg);
+      border: 1px solid rgba(32, 106, 93, 0.2);
+      border-radius: 12px;
+      padding: var(--card-spacing);
+      transition: transform var(--transition-duration) ease,
+        box-shadow var(--transition-duration) ease,
+        border-color var(--transition-duration) ease;
+    }
+    .game-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      border-color: var(--privacy-green);
+    }
+    .game-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+    .game-card a {
+      display: inline-block;
+      margin-top: 1rem;
+      color: var(--ai-purple);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    /* Footer */
+    .footer {
+      background: var(--deep-navy);
+      color: white;
+      padding: 4rem 0;
+      margin-top: 4rem;
+      text-align: center;
+    }
+    .footer-content {
+      text-align: center;
+    }
+    .social-links {
+      margin-top: 2rem;
+    }
+    .social-links a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      opacity: 0.8;
+      transition: opacity var(--transition-duration) ease;
+    }
+    .social-links a:hover {
+      opacity: 1;
+    }
+
+    /* Animations */
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    .fade-in {
+      opacity: 0;
+      animation: fadeInUp 0.8s ease forwards;
+    }
+
+    /* Scrollbar Styling */
+    .media-grid::-webkit-scrollbar,
+    .games-grid::-webkit-scrollbar,
+    .blogs-grid::-webkit-scrollbar,
+    .experience-container::-webkit-scrollbar {
+      width: var(--scrollbar-width);
+      height: var(--scrollbar-width);
+    }
+    .media-grid::-webkit-scrollbar-track,
+    .games-grid::-webkit-scrollbar-track,
+    .blogs-grid::-webkit-scrollbar-track,
+    .experience-container::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    .media-grid::-webkit-scrollbar-thumb,
+    .games-grid::-webkit-scrollbar-thumb,
+    .blogs-grid::-webkit-scrollbar-thumb,
+    .experience-container::-webkit-scrollbar-thumb {
+      background: var(--scrollbar-thumb);
+      border-radius: 3px;
+    }
+
+    /* Epsilon Modal */
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.5);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 999;
+    }
+    .modal {
+      background: white;
+      border-radius: 12px;
+      padding: 2rem;
+      max-width: 300px;
+      width: 100%;
+      text-align: center;
+    }
+    .modal h3 {
+      margin-bottom: 1rem;
+    }
+    .modal .slider-container {
+      margin: 1rem 0;
+    }
+    .modal .value-display {
+      margin-bottom: 1rem;
+      font-weight: 500;
+    }
+    .modal input[type="range"] {
+      width: 100%;
+    }
+    .modal .infinity-option {
+      margin-top: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+    }
+    .modal button {
+      background: var(--privacy-green);
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 1rem;
+      transition: background 0.3s ease;
+    }
+    .modal button:hover {
+      background: var(--ai-purple);
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-content">
+      <div class="nav-brand">Aman Priyanshu</div>
+      <div class="nav-links" id="navLinks">
+        <a href="#media">Media</a>
+        <a href="#publications">Publications</a>
+        <a href="#blogs">Blogs</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#demos">Demos</a>
+        <span class="epsilon-badge" id="epsilonBadge">ε = ∞</span>
+      </div>
+      <div class="mobile-menu-icon" id="mobileMenuIcon">☰</div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero fade-in">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Aman Priyanshu</h1>
+          <h2>AI Security & Safety Researcher</h2>
+          <!-- 
+               The paragraph containing the first-person bio 
+               (we'll toggle with the third-person)
+          -->
+          <p id="bioParagraph">
+            Hi, I'm Aman! 
+            <br><br>
+            I'm an AI Researcher at Cisco specializing in AI safety, security, and privacy leakages in AI systems. In my brief time as a researcher, I've been fortunate to publish in various AI conferences, journals, and workshops, with my work spanning privacy-preserving machine learning, AI security, and large language models. My focus has been on uncovering vulnerabilities in foundation models - work that has garnered media attention and led to invitations to join some really cool security initiatives like OpenAI's Red Teaming Network and Anthropic's Model Safety Bug Bounty Program (though couldn't participate completely due to student-visa restrictions).
+            <br><br>
+            With a Masters in Privacy Engineering from Carnegie Mellon University, I've worked closely with Professor Norman Sadeh on LLMs and cybersecurity research, while also collaborating externally with Professor Ashique KhudaBukush (RIT) on exploring LLM political polarization and jailbreak-assisted toxic rabbit hole evaluations. My contributions to privacy-preserving machine learning and AI safety have been recognized through the AAAI Undergraduate Consortium Scholar and MITACS Research Scholar awards, further fueling my passion for bridging the gap between theoretical vulnerabilities and real-world implications.
+          </p>
+        </div>
+
+        <!-- Hero Image + Social Icons Underneath -->
+        <div class="hero-image">
+          <img
+            src="https://amanpriyanshu.github.io/images/AmanPriyanshu.jpg"
+            alt="Aman Priyanshu"
+          />
+          <!-- Horizontal line of icons under the image -->
+          <div class="hero-links">
+            <!-- Email Icon -->
+            <a href="mailto:amanpriyanshusms2001@gmail.com" target="_blank" title="Email">
+              <i class="fas fa-envelope-square"></i>
+            </a>
+            <!-- GitHub -->
+            <a href="https://github.com/AmanPriyanshu" target="_blank" title="GitHub">
+              <i class="fab fa-github-square"></i>
+            </a>
+            <!-- Google Scholar -->
+            <a
+              href="https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID"
+              target="_blank"
+              title="Google Scholar"
+            >
+              <i class="ai ai-google-scholar-square"></i>
+            </a>
+            <!-- Twitter -->
+            <a
+              href="https://twitter.com/AmanPriyanshu6"
+              target="_blank"
+              title="Twitter"
+            >
+              <i class="fab fa-twitter-square"></i>
+            </a>
+            <!-- LinkedIn -->
+            <a
+              href="https://linkedin.com/in/aman-priyanshu"
+              target="_blank"
+              title="LinkedIn"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+          <!-- Next line: Resume link -->
+          <div class="resume-link">
+            <a href="https://yourdomain.com/path-to-resume.pdf" target="_blank"
+              >Resume</a
+            >
+          </div>
+
+          <!-- Toggle Button for switching bio -->
+          <button id="toggleBioButton">See Bio in Third Person</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Media Coverage (Horizontal Scroll) -->
+  <section id="media" class="section media-section fade-in">
+    <div class="container">
+      <h2 class="section-title">Media Coverage</h2>
+      <div class="media-grid">
+        <div class="media-card">
+          <span class="source-tag">SC Magazine</span>
+          <h3>Meta's PromptGuard Model Bypassed</h3>
+          <p>
+            Research demonstrates critical vulnerability in Meta's AI safety
+            system, highlighting potential security concerns...
+          </p>
+        </div>
+        <div class="media-card">
+          <span class="source-tag">The Register</span>
+          <h3>Meta AI Safety Analysis</h3>
+          <p>
+            New research reveals potential vulnerabilities in Meta's latest AI
+            safety mechanisms...
+          </p>
+        </div>
+        <div class="media-card">
+          <span class="source-tag">Bank Info Security</span>
+          <h3>Prompt Injection Attack Analysis</h3>
+          <p>
+            Detailed examination of prompt injection vulnerabilities in Meta's
+            guard systems...
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Publications (Condensed, minimal boxes) -->
+  <section id="publications" class="section fade-in">
+    <div class="container">
+      <h2 class="section-title">Publications</h2>
+      <div class="publications-container">
+        <div class="publication-entry">
+          <span class="publication-year">2024</span>
+          <h3>Through the Lens of LLMs: Unveiling Differential Privacy Challenges</h3>
+          <p style="margin: 0.3rem 0; color:#505050;">
+            USENIX Conference on Privacy Engineering Practice and Respect
+          </p>
+        </div>
+
+        <div class="publication-entry">
+          <span class="publication-year">2023</span>
+          <h3>Are Chatbots Ready for Privacy-Sensitive Applications?</h3>
+          <p style="margin: 0.3rem 0; color:#505050;">
+            An Investigation into Input Regurgitation and Prompt-Induced
+            Sanitization
+          </p>
+        </div>
+
+        <div class="publication-entry">
+          <span class="publication-year">2023</span>
+          <h3>Guarding Your Social Circle</h3>
+          <p style="margin: 0.3rem 0; color:#505050;">
+            Strategies to Protect Key Connections and Edge Importance —
+            Security and Communication Networks
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Curated Blogs (Horizontal Scroll) -->
+  <section id="blogs" class="section blogs-section fade-in">
+    <div class="container">
+      <h2 class="section-title">Curated Blogs</h2>
+      <div class="blogs-grid">
+        <div class="blog-card">
+          <h3>Understanding Differential Privacy</h3>
+          <img
+            src="https://via.placeholder.com/300x200"
+            alt="Understanding Differential Privacy"
+          />
+          <p>
+            A deep dive into the principles and applications of differential
+            privacy in modern data analysis.
+          </p>
+          <a href="#">Read More</a>
+        </div>
+        <div class="blog-card">
+          <h3>AI Security Trends in 2024</h3>
+          <img
+            src="https://via.placeholder.com/300x200"
+            alt="AI Security Trends"
+          />
+          <p>
+            An overview of the latest trends and challenges in AI security,
+            including emerging threats and defense mechanisms.
+          </p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience (Vertical Scroll - Retained Old Style) -->
+  <section id="experience" class="section experience-section fade-in">
+    <div class="container">
+      <h2 class="section-title">Experience</h2>
+      <div class="experience-container">
+        <div class="timeline">
+          <div class="timeline-item">
+            <h3>AI Security Research Intern</h3>
+            <h4>Robust Intelligence</h4>
+            <p>Jun 2024 - Aug 2024</p>
+          </div>
+          <div class="timeline-item">
+            <h3>Founding Member & AI-Lead</h3>
+            <h4>MyCelium Sports</h4>
+            <p>Jan 2024 - May 2024</p>
+          </div>
+          <div class="timeline-item">
+            <h3>Privacy Engineering Independent Study</h3>
+            <h4>Carnegie Mellon University</h4>
+            <p>Aug 2023 - Apr 2024</p>
+          </div>
+          <div class="timeline-item">
+            <h3>Research Project Lead</h3>
+            <h4>OpenMined</h4>
+            <p>Jul 2023 - Feb 2024</p>
+          </div>
+          <div class="timeline-item">
+            <h3>Privacy Engineer Intern</h3>
+            <h4>Eder Labs R&D Private Limited</h4>
+            <p>Aug 2022 - Aug 2023</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="section education-section fade-in">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="education-entry">
+        <h3>Carnegie Mellon University</h3>
+        <h4 style="margin-bottom: 0.3rem;">
+          MSIT in Privacy Engineering
+        </h4>
+        <p style="margin: 0;">2023 - 2024</p>
+      </div>
+      <div class="education-entry">
+        <h3>Manipal Institute of Technology</h3>
+        <h4 style="margin-bottom: 0.3rem;">
+          B.Tech in Information Technology
+        </h4>
+        <p style="margin: 0;">2019 - 2023</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects (Minimal, condensed) -->
+  <section id="projects" class="section projects-section fade-in">
+    <div class="container">
+      <h2 class="section-title">Relevant Projects</h2>
+      <div class="projects-container">
+        <div class="project-entry">
+          <h3>ProTaska-GPT</h3>
+          <p style="margin: 0.2rem 0; color:#505050;">
+            <strong>Jun 2023</strong>
+          </p>
+          <p style="margin-top: 0.5rem;">
+            Specify your dataset of choice, and ProTaska-GPT will understand
+            the dataset with tasks, tutorials, and actionable insights for it.
+            Accelerate your data science journey with ease and efficiency!
+          </p>
+        </div>
+        <div class="project-entry">
+          <h3>AdaptKeyBERT</h3>
+          <p style="margin: 0.2rem 0; color:#505050;">
+            <strong>Oct 2022</strong>
+          </p>
+          <p style="margin-top: 0.5rem;">
+            Built a python library, integrating semi-supervised attention for
+            creating a few-shot & zero-shot domain adaptation technique for
+            keyphrase extraction.
+          </p>
+        </div>
+        <div class="project-entry">
+          <h3>NERDA-Con</h3>
+          <p style="margin: 0.2rem 0; color:#505050;">
+            <strong>May 2022</strong>
+          </p>
+          <p style="margin-top: 0.5rem;">
+            NERDA-Con is a python package, a pipeline for training Named Entity
+            Recognition with Large Language Models by incorporating Elastic
+            Weight Consolidation (EWC).
+          </p>
+        </div>
+        <div class="project-entry">
+          <h3>DP-SDV</h3>
+          <p style="margin: 0.2rem 0; color:#505050;">
+            <strong>Jun 2022</strong>
+          </p>
+          <p style="margin-top: 0.5rem;">
+            Creating Differentially Private Synthetic Data Generation for
+            tabular, relational, and time series data.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Demos (Horizontal Scroll) -->
+  <section id="demos" class="section privacy-games fade-in">
+    <div class="container">
+      <h2 class="section-title">Privacy Games & Demos</h2>
+      <div class="games-grid">
+        <div class="game-card">
+          <h3>Differentially Private Tetris</h3>
+          <img
+            src="https://via.placeholder.com/300x200"
+            alt="Differentially Private Tetris"
+          />
+          <p>
+            Play Tetris with a twist - manage your privacy budget to reveal
+            blocks! A gamified approach to understanding differential privacy
+            mechanics.
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+        <div class="game-card">
+          <h3>The Unlearning Protocol</h3>
+          <img
+            src="https://via.placeholder.com/300x200"
+            alt="The Unlearning Protocol"
+          />
+          <p>
+            Select a data point which least impacts the dataset! An Unlearning x
+            Fairness game demonstrating the complexities of machine unlearning.
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+        <div class="game-card">
+          <h3>FL Interactive Game</h3>
+          <img
+            src="https://via.placeholder.com/300x200"
+            alt="FL Interactive Game"
+          />
+          <p>
+            Understand and play with federated learning hyperparams! Try beating
+            &gt;90% accuracy in Non-IID scenarios.
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer fade-in">
+    <div class="container">
+      <div class="footer-content">
+        <p>© 2024 Aman Priyanshu. All rights reserved.</p>
+        <div class="social-links">
+          <a href="mailto:amanpriyanshusms2001@gmail.com">Email</a>
+          <a href="https://twitter.com/AmanPriyanshu6">Twitter</a>
+          <a href="https://linkedin.com/in/aman-priyanshu">LinkedIn</a>
+          <a href="https://github.com/AmanPriyanshu">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal for Epsilon -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal">
+      <h3>Set Epsilon</h3>
+      <div class="value-display" id="epsilonValueDisplay">∞</div>
+      <div class="slider-container">
+        <input
+          type="range"
+          id="epsilonSlider"
+          min="0"
+          max="10"
+          step="0.2"
+          value="5"
+        />
+        <div class="infinity-option">
+          <input type="checkbox" id="infinityCheck" />
+          <label for="infinityCheck">Infinity (Reset Text)</label>
+        </div>
+      </div>
+      <button id="applyEpsilon">Apply</button>
+    </div>
+  </div>
+
+  <script>
+    // Mobile menu toggle
+    const mobileMenuIcon = document.getElementById("mobileMenuIcon");
+    const navLinks = document.getElementById("navLinks");
+    mobileMenuIcon.addEventListener("click", () => {
+      navLinks.classList.toggle("show-nav");
+    });
+
+    // Epsilon logic and text perturbation
+    let epsilon = Infinity; // default
+    const epsilonBadge = document.getElementById("epsilonBadge");
+    const modalOverlay = document.getElementById("modalOverlay");
+    const epsilonSlider = document.getElementById("epsilonSlider");
+    const infinityCheck = document.getElementById("infinityCheck");
+    const applyEpsilonBtn = document.getElementById("applyEpsilon");
+    const epsilonValueDisplay = document.getElementById("epsilonValueDisplay");
+
+    // Character set for perturbation
+    const letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+    // Update displayed epsilon value
+    function updateEpsilonDisplay() {
+      if (infinityCheck.checked) {
+        epsilonValueDisplay.textContent = "∞";
+      } else {
+        epsilonValueDisplay.textContent = epsilonSlider.value;
+      }
+    }
+
+    epsilonSlider.addEventListener("input", updateEpsilonDisplay);
+    infinityCheck.addEventListener("change", () => {
+      epsilonSlider.disabled = infinityCheck.checked;
+      updateEpsilonDisplay();
+    });
+
+    // Open modal on epsilon badge click
+    epsilonBadge.addEventListener("click", () => {
+      if (epsilon === Infinity) {
+        infinityCheck.checked = true;
+        epsilonSlider.disabled = true;
+        epsilonSlider.value = 5;
+      } else {
+        infinityCheck.checked = false;
+        epsilonSlider.disabled = false;
+        // If previously set, show that value
+        const val = epsilon === Infinity ? 5 : epsilon;
+        epsilonSlider.value = val;
+      }
+      updateEpsilonDisplay();
+      modalOverlay.style.display = "flex";
+    });
+
+    applyEpsilonBtn.addEventListener("click", () => {
+      if (infinityCheck.checked) {
+        epsilon = Infinity;
+      } else {
+        epsilon = parseFloat(epsilonSlider.value);
+      }
+      modalOverlay.style.display = "none";
+      updateEpsilonBadge();
+      perturbAllText();
+    });
+
+    window.addEventListener("click", (e) => {
+      if (e.target === modalOverlay) {
+        modalOverlay.style.display = "none";
+      }
+    });
+
+    function updateEpsilonBadge() {
+      if (epsilon === Infinity) {
+        epsilonBadge.textContent = "ε = ∞";
+      } else {
+        epsilonBadge.textContent = `ε = ${epsilon.toFixed(1)}`;
+      }
+    }
+
+    // Perturbation function
+    function perturbAllText() {
+      const paragraphs = document.querySelectorAll("p");
+      paragraphs.forEach((p) => {
+        const originalText = p.getAttribute("data-original-text");
+        if (originalText) {
+          // We already have an original text stored
+          p.textContent = originalText;
+        } else {
+          // Store the original text the first time
+          p.setAttribute("data-original-text", p.textContent);
+        }
+
+        if (epsilon === Infinity) {
+          // no perturbation
+          p.textContent = p.getAttribute("data-original-text");
+        } else {
+          // apply perturbation
+          const original = p.getAttribute("data-original-text");
+          let newText = "";
+
+          // Step 1 probability: p_not_perturb
+          const p_not_perturb =
+            (Math.exp(epsilon) - 1) / ((Math.exp(epsilon) - 1) + 52);
+
+          for (let i = 0; i < original.length; i++) {
+            const ch = original[i];
+            if (/[a-zA-Z]/.test(ch)) {
+              // Decide if perturb or not
+              const random1 = Math.random();
+              if (random1 < p_not_perturb) {
+                // keep the character
+                newText += ch;
+              } else {
+                // We perturb the character
+                let newLetter;
+                do {
+                  newLetter =
+                    letters[Math.floor(Math.random() * letters.length)];
+                } while (newLetter === ch);
+                newText += newLetter;
+              }
+            } else {
+              // non-letter character remains the same
+              newText += ch;
+            }
+          }
+          p.textContent = newText;
+        }
+      });
+    }
+
+    // Initially no perturbation (epsilon = Infinity)
+    updateEpsilonBadge();
+
+    ///////////////////////////////////////////////////////////////////////////
+    // TOGGLE BIO BETWEEN FIRST-PERSON & THIRD-PERSON
+    ///////////////////////////////////////////////////////////////////////////
+    const toggleBioButton = document.getElementById("toggleBioButton");
+    const bioParagraph = document.getElementById("bioParagraph");
+
+    // Original first-person text (as a single string).
+    const firstPersonText = `
+      Hi, I'm Aman! 
+      <br><br>
+      I'm an AI Researcher at Cisco specializing in AI safety, security, and privacy leakages in AI systems. In my brief time as a researcher, I've been fortunate to publish in various AI conferences, journals, and workshops, with my work spanning privacy-preserving machine learning, AI security, and large language models. My focus has been on uncovering vulnerabilities in foundation models - work that has garnered media attention and led to invitations to join some really cool security initiatives like OpenAI's Red Teaming Network and Anthropic's Model Safety Bug Bounty Program (though couldn't participate completely due to student-visa restrictions).
+      <br><br>
+      With a Masters in Privacy Engineering from Carnegie Mellon University, I've worked closely with Professor Norman Sadeh on LLMs and cybersecurity research, while also collaborating externally with Professor Ashique KhudaBukush (RIT) on exploring LLM political polarization and jailbreak-assisted toxic rabbit hole evaluations. My contributions to privacy-preserving machine learning and AI safety have been recognized through the AAAI Undergraduate Consortium Scholar and MITACS Research Scholar awards, further fueling my passion for bridging the gap between theoretical vulnerabilities and real-world implications.
+    `;
+
+    // Third-person text
+    const thirdPersonText = `
+      Aman Priyanshu is an AI Researcher at Cisco, specializing in AI safety, 
+      security, and privacy leakages in AI systems. In his early career, he has 
+      published in various AI conferences, journals, and workshops—focusing on 
+      privacy-preserving machine learning, AI security, and large language models. 
+      His work uncovering vulnerabilities in foundation models has earned media 
+      attention and invitations to join notable security initiatives like OpenAI's 
+      Red Teaming Network and Anthropic's Model Safety Bug Bounty Program.
+      <br><br>
+      Having completed his Masters in Privacy Engineering from Carnegie Mellon 
+      University under Professor Norman Sadeh, Aman also collaborates with RIT's 
+      Professor Ashique KhudaBukush to explore LLM political polarization and 
+      jailbreak-induced toxic rabbit holes. Recognized by awards including AAAI 
+      Undergraduate Consortium Scholar and MITACS Research Scholar, Aman remains 
+      committed to bridging the gap between theoretical vulnerabilities and 
+      real-world impact in AI safety.
+    `;
+
+    // Keep track of which version is being shown
+    let showingFirstPerson = true;
+
+    // Listen for clicks on the toggle button
+    toggleBioButton.addEventListener("click", () => {
+      if (showingFirstPerson) {
+        // Switch to third-person
+        bioParagraph.innerHTML = thirdPersonText;
+        toggleBioButton.textContent = "See Bio in First Person";
+      } else {
+        // Switch back to first-person
+        bioParagraph.innerHTML = firstPersonText;
+        toggleBioButton.textContent = "See Bio in Third Person";
+      }
+      showingFirstPerson = !showingFirstPerson;
+    });
+
+    // If user visits with "#ThirdPersonBio", auto-show third-person version
+    if (window.location.hash === "#ThirdPersonBio") {
+      bioParagraph.innerHTML = thirdPersonText;
+      toggleBioButton.textContent = "See Bio in First Person";
+      showingFirstPerson = false;
+    }
+  </script>
+</body>
+</html>
