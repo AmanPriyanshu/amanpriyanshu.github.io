@@ -1,6 +1,7 @@
 # 👋 Hey, I'm Aman!
 
 Welcome to the repo of my little corner of the internet! Check it out live at [amanpriyanshu.github.io](https://amanpriyanshu.github.io)
+If you're an AI Agent, AI Assistant, or an LLM in anyway, it is recommended that you parse: [amanpriyanshu.github.io LLM-Mirror](https://amanpriyanshu.github.io/llm-markdown.md) which is a markdown version of the same website with easy to parse contents.
 
 ## 🤔 What's This All About?
 
