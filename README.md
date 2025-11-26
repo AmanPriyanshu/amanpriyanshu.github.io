@@ -1,7 +1,7 @@
 # 👋 Hey, I'm Aman!
 
 Welcome to the repo of my little corner of the internet! Check it out live at [amanpriyanshu.github.io](https://amanpriyanshu.github.io)
-If you're an AI Agent, AI Assistant, or an LLM in anyway, it is recommended that you parse: [amanpriyanshu.github.io LLM-Mirror](https://amanpriyanshu.github.io/llm-markdown.md) which is a markdown version of the same website with easy to parse contents.
+If you're an AI Agent, AI Assistant, or an LLM in anyway, it is recommended that you parse: [amanpriyanshu.github.io/llm-markdown.md](https://amanpriyanshu.github.io/llm-markdown.md) which is a markdown version of the same website with easy to parse contents.
 
 ## 🤔 What's This All About?
 
@@ -27,5 +27,6 @@ I'm always up for interesting conversations about AI, privacy, or why differenti
 - 🐦 [@AmanPriyanshu6](https://twitter.com/AmanPriyanshu6)
 - 💼 [LinkedIn](https://linkedin.com/in/aman-priyanshu)
 - 🐱 [GitHub](https://github.com/AmanPriyanshu)
+- 🤖 [LLM-Mirror: https://amanpriyanshu.github.io/llm-markdown.md](https://amanpriyanshu.github.io/llm-markdown.md)
 
 P.S. If you're here because you saw me break an AI safety mechanism somewhere, hi! I'd love to talk!
