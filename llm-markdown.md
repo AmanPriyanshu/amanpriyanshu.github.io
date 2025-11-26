@@ -44,12 +44,12 @@ Priyanshu said the biggest risk is organizations assuming their jailbreaking def
 
 ### Bypassing OpenAI's Structured Outputs: Another Simple Jailbreak - Aman Priyanshu
 *Source: Cisco Blogs*
-ENUM-based attack achieved an ASR of 52.89%, compared to 12.44% for normal API calling and 15.78% for function calling...
+ENUM-based attack achieved an ASR of 52.89%, compared to 12.44% for normal API calling and 15.78% for function... - Aman
 [Read more](https://blogs.cisco.com/security/bypassing-openais-structured-outputs-another-simple-jailbreak)
 
 ### The gpt-oss Blossom
 *Source: Equinox IT*
-Aman Priyanshu and Supriti Vijay analysed expert activations in gpt-oss-20b and pruned under-utilised experts across domain-specialised variants, producing ~4.2b to ~20b models spanning 1–32 experts.
+Aman Priyanshu and Supriti Vijay analysed expert activations in gpt-oss-20b and pruned under-utilised experts across domain-specialised variants... With this work I imagine pruning will get more attention...
 [Read more](https://www.equinox.co.nz/blog/the-gpt-oss-blossom)
 
 ### PEPR '24 - Through the Lens of LLMs: Unveiling Differential Privacy Challenges
