@@ -82,6 +82,11 @@ Exploring reasoning models, their training, common pitfalls, and solutions as an
 Sharing insights on academic paper structure, journal selection, etc. for emerging researchers at RSM (AI Sub-Head).
 [Read more](https://www.youtube.com/watch?v=7wdH6-XxIRM)
 
+### CyLab researchers to present at USENIX PEPR 2025
+*Source: CyLab*
+Even with conservative epsilon values (ε<10), document formatting and contextual patterns can create unexpected privacy challenges... Researchers Yash Maurya and Aman Priyanshu.
+[Read more](https://www.cylab.cmu.edu/news/2025/05/27-cylab-presents-at-pepr-2025.html)
+
 ### Study Shows Meta AI Safety System Easily Compromised
 *Source: ChannelE2E*
 ...the need for a multi-layer approach," said Robust Intelligence AI Security Researcher Aman Priyanshu.
