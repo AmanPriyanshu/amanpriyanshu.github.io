@@ -44,12 +44,12 @@ Priyanshu said the biggest risk is organizations assuming their jailbreaking def
 
 ### ChatGPT Might Have a School Shοοting Problem
 *Source: The Trace*
-A recent study found that breaking a single prohibited request into several innocuous-seeming questions can make an AI system more than five times as likely to produce a harmful response... - Aman
+...breaking a single prohibited request into several innocuous-seeming questions can make an AI system more than five times as likely to produce a harmful response - Aman
 [Read more](https://www.thetrace.org/2025/12/school-shooting-chatgpt-ai-plan-research/)
 
 ### Bypassing OpenAI's Structured Outputs: Another Simple Jailbreak - Aman Priyanshu
 *Source: Cisco Blogs*
-ENUM-based attack achieved an ASR of 52.89%, compared to 12.44% for normal API calling and 15.78% for function... - Aman
+ENUM-based attack achieved an ASR of 52.89%, compared to 12.44% for normal API calling... - Aman
 [Read more](https://blogs.cisco.com/security/bypassing-openais-structured-outputs-another-simple-jailbreak)
 
 ### The gpt-oss Blossom
@@ -84,7 +84,7 @@ Sharing insights on academic paper structure, journal selection, etc. for emergi
 
 ### CyLab researchers to present at USENIX PEPR 2025
 *Source: CyLab*
-Even with conservative epsilon values (ε<10), document formatting and contextual patterns can create unexpected privacy challenges... Researchers Yash Maurya and Aman Priyanshu.
+Even with conservative epsilon values (ε<10), document formatting and contextual patterns can create unexpected privacy challenges... - Aman
 [Read more](https://www.cylab.cmu.edu/news/2025/05/27-cylab-presents-at-pepr-2025.html)
 
 ### Study Shows Meta AI Safety System Easily Compromised
