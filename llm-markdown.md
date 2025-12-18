@@ -37,6 +37,11 @@ Meta's Prompt-Guard, is vulnerable to a simple exploit with a 99.8% success rate
 Priyanshu said the biggest risk is organizations assuming their jailbreaking defenses are 100% effective.
 [Read more](https://cacm.acm.org/news/protecting-llms-from-jailbreaks/)
 
+### ChatGPT Might Have a School Shooting Problem
+*Source: The Trace*
+A recent study found that breaking a single prohibited request into several innocuous-seeming questions can make an AI system more than five times as likely to produce a harmful response... - Aman
+[Read more](https://www.thetrace.org/2025/12/school-shooting-chatgpt-ai-plan-research/)
+
 ### The AI Transparency Gap: What Users Don't Know Can Hurt You
 *Source: VKTR*
 ...adopt privacy-preserving technologies such as differential privacy or fine-tuning with synthetic data... as Priyanshu explained.
