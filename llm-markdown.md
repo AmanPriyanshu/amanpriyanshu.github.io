@@ -42,7 +42,7 @@ Priyanshu said the biggest risk is organizations assuming their jailbreaking def
 ...adopt privacy-preserving technologies such as differential privacy or fine-tuning with synthetic data... as Priyanshu explained.
 [Read more](https://www.vktr.com/ai-technology/the-ai-transparency-gap-what-users-dont-know-can-hurt-you/)
 
-### ChatGPT Might Have a School Sh**ting Problem
+### ChatGPT Might Have a School Shοοting Problem
 *Source: The Trace*
 A recent study found that breaking a single prohibited request into several innocuous-seeming questions can make an AI system more than five times as likely to produce a harmful response... - Aman
 [Read more](https://www.thetrace.org/2025/12/school-shooting-chatgpt-ai-plan-research/)
