@@ -183,22 +183,22 @@ IEEE Sixth International Conference on Multimedia Big Data (BigMM)
 ### [Breaching Privacy in Real-World Synthetic Data](https://amanpriyanshu.github.io/SynthLeak/)
 We cracked a real-world differentially private synthetic data by linking public information to exposed PII overnight.
 
-### [AdaptKeyBERT: Zero-Shot & Few-Shot Keyword Extraction Library](https://amanpriyanshu.github.io/blogs/posts/2024/adaptkeybert/)
+### [AdaptKeyBERT: Zero-Shot & Few-Shot Keyword Extraction Library](https://amanpriyanshu.github.io/blogs-2025/posts/2024/adaptkeybert/)
 We built a keyword extractor, forgot about it, and somehow researchers are actually using it in their work.
 
-### [A Journey into Dynamic Topic Modeling](https://amanpriyanshu.github.io/blogs/posts/2024/dynamic-topic-modeling/)
+### [A Journey into Dynamic Topic Modeling](https://amanpriyanshu.github.io/blogs-2025/posts/2024/dynamic-topic-modeling/)
 I created a hierarchical topic modeling dataset from RedPajama, with 100k samples and 3 levels of topics.
 
-### [LinearCosine: "Do we really need multiplication for AI?"](https://amanpriyanshu.github.io/blogs/posts/2024/linear-cosine/)
+### [LinearCosine: "Do we really need multiplication for AI?"](https://amanpriyanshu.github.io/blogs-2025/posts/2024/linear-cosine/)
 I created a hierarchical topic modeling dataset from RedPajama, with 100k samples and 3 levels of topics.
 
-### [API-LLM-Hub: LLM-API integration for Static Pages](https://amanpriyanshu.github.io/blogs/posts/2024/api-llm-hub/)
+### [API-LLM-Hub: LLM-API integration for Static Pages](https://amanpriyanshu.github.io/blogs-2025/posts/2024/api-llm-hub/)
 I built a vanilla JavaScript library that lets you use AI APIs directly in browsers, no backend needed.
 
-### [YC-Dendrolinguistics: Linguistic Trees of YC Pitches](https://amanpriyanshu.github.io/blogs/posts/2024/startup-linguistic-trees/)
+### [YC-Dendrolinguistics: Linguistic Trees of YC Pitches](https://amanpriyanshu.github.io/blogs-2025/posts/2024/startup-linguistic-trees/)
 I mapped linguistic patterns in YC startup pitches like growing trees, and built a semantic search tool to explore them.
 
-### [FRACTURED-SORRY-Bench: Multi-shot prompt injections](https://amanpriyanshu.github.io/blogs/posts/2024/fractured-sorry-bench/)
+### [FRACTURED-SORRY-Bench: Multi-shot prompt injections](https://amanpriyanshu.github.io/blogs-2025/posts/2024/fractured-sorry-bench/)
 We broke AI safeguards by splitting harmful prompts into innocent sub-questions.
 
 ---
