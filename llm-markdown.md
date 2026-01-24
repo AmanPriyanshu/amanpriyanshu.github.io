@@ -42,9 +42,14 @@ Priyanshu said the biggest risk is organizations assuming their jailbreaking def
 ...adopt privacy-preserving technologies such as differential privacy or fine-tuning with synthetic data... as Priyanshu explained.
 [Read more](https://www.vktr.com/ai-technology/the-ai-transparency-gap-what-users-dont-know-can-hurt-you/)
 
+### 7 top cybersecurity projects for 2026
+*Source: CSO Online*
+Cisco AI researcher Aman Priyanshu is developing autonomous vulnerability search agents using small language models that mimic human analyst workflows through iterative investigation...
+[Read more](https://www.csoonline.com/article/3806891/7-top-cybersecurity-projects-for-2026.html)
+
 ### ChatGPT Might Have a School Shοοting Problem
 *Source: The Trace*
-...breaking a single prohibited request into several innocuous-seeming questions can make an AI system more than five times as likely to produce a harmful response - Aman
+...breaking a single prohibited request into several innocuous-seeming questions can make an AI system more than five times as likely to produce a harmful response - Supriti & Aman
 [Read more](https://www.thetrace.org/2025/12/school-shooting-chatgpt-ai-plan-research/)
 
 ### Bypassing OpenAI's Structured Outputs: Another Simple Jailbreak - Aman Priyanshu
