@@ -44,7 +44,7 @@ Priyanshu said the biggest risk is organizations assuming their jailbreaking def
 
 ### 7 top cybersecurity projects for 2026
 *Source: CSO Online*
-Cisco AI researcher Aman Priyanshu is developing autonomous vulnerability search agents using small language models that mimic human analyst workflows through iterative investigation...
+Cisco AI researcher Aman Priyanshu is developing autonomous vulnerability search agents using SLMs that mimic human analyst workflows through iterative investigation...
 [Read more](https://www.csoonline.com/article/3806891/7-top-cybersecurity-projects-for-2026.html)
 
 ### ChatGPT Might Have a School Shοοting Problem
@@ -111,75 +111,55 @@ Analysis uncovered that single-character tokens, especially English alphabet cha
 
 ## Publications
 
+### [Think Before You Retrieve: Learning Test-Time Adaptive Search with Small Language Models](https://arxiv.org/abs/2511.07581)
+**Year:** 2025
+Supriti Vijay, Aman Priyanshu, Anu Vellore, Baturay Saglam, Amin Karbasi
+arXiv Preprint
+
+### [Llama-3.1-FoundationAI-SecurityLLM-Base-8B Technical Report](https://arxiv.org/abs/2504.21039)
+**Year:** 2025
+Paul Kassianik, Baturay Saglam, Alexander Chen, Blaine Nelson, Anu Vellore, Massimo Aufiero, Fraser Burch, Dhruv Kedia, Avi Zohary, Sajana Weerawardhena, Aman Priyanshu, Adam Swanda, Amy Chang, Hyrum Anderson, Kojin Oshiba, Omar Santos, Yaron Singer, Amin Karbasi
+Technical Report (Foundation-AI, Cisco)
+
 ### [Through the Lens of LLMs: Unveiling Differential Privacy Challenges](https://www.usenix.org/conference/pepr24/presentation/priyanshu)
 **Year:** 2024
 Aman Priyanshu, Yash Maurya, Vy Tran, Suriya Ganesh Ayyamperumal
 USENIX Conference on Privacy Engineering Practice and Respect
 
-### [Guarding Your Social Circle: Strategies to Protect Key Connections and Edge Importance](https://www.hindawi.com/journals/scn/2023/2548962/)
-**Year:** 2023
-Nisha P Shetty, Balachandra Muniyal, Akshat Dokania, Sohom Datta, Manas Subramanyam Gandluri, Leander Melroy Maben, Aman Priyanshu
-Security and Communication Networks
+### [FRACTURED-SORRY-Bench: Framework for Revealing Attacks in Conversational Turns Undermining Refusal Efficacy and Defenses over SORRY-Bench](https://arxiv.org/abs/2408.16163)
+**Year:** 2024
+Aman Priyanshu, Supriti Vijay
+arXiv Preprint
 
-### [FedBully: A Cross-Device Federated Approach for Privacy Enabled Cyber Bullying Detection using Sentence Encoders](https://journals.riverpublishers.com/index.php/JCSANDM/article/view/16209)
-**Year:** 2023
-Nisha P Shetty, Balachandra Muniyal, Aman Priyanshu, Vedant Rishi Das
-Journal of Cyber Security and Mobility
+### [AI Governance and Accountability: An Analysis of Anthropic's Claude](https://arxiv.org/abs/2407.01557)
+**Year:** 2024
+Aman Priyanshu, Yash Maurya, Zuofei Hong
+arXiv Preprint
 
 ### [Are Chatbots Ready for Privacy-Sensitive Applications? An Investigation into Input Regurgitation and Prompt-Induced Sanitization](https://arxiv.org/abs/2305.15008)
 **Year:** 2023
 Aman Priyanshu, Supriti Vijay, Ayush Kumar, Rakshit Naidu, Fatemehsadat Mireshghallah
-Pre-Print (In-Submission)
+arXiv Preprint
 
-### [#maskUp: Selective Attribute Encryption for Sensitive Vocalization for English language on Social Media Platforms](https://arxiv.org/abs/2211.08653)
+### [AdaptKeyBERT: An Attention-Based Approach Towards Few-Shot & Zero-Shot Domain Adaptation of KeyBERT](https://arxiv.org/abs/2211.07499)
 **Year:** 2022
 Aman Priyanshu, Supriti Vijay
-Research & Reports Track at #ShowYourSkill, Coursera
+arXiv Preprint
 
 ### [NERDA-Con: Extending NER models for Continual Learning - Integrating Distinct Tasks and Updating Distribution Shifts](https://arxiv.org/abs/2206.14607)
 **Year:** 2022
 Supriti Vijay, Aman Priyanshu
 Updatable Machine Learning Workshop, ICML 2022
 
-### [ARLIF-IDS: Attention augmented Real-Time Isolation Forest Intrusion Detection System](https://arxiv.org/abs/2204.09737)
-**Year:** 2022
-Aman Priyanshu, Sarthak Shastri, Sai Sravan Medicherla
-43rd IEEE Symposium on Security and Privacy
-
-### [Finding an elite feature for (D)DoS fast detection-Mixed methods research](https://doi.org/10.1016/j.compeleceng.2022.107705)
-**Year:** 2022
-Josy Elsa Varghese, Balachandra Muniyal, Aman Priyanshu
-Computers & Electrical Engineering, Volume 98
-
 ### [Efficient Hyperparameter Optimization for Differentially Private Deep Learning](https://arxiv.org/abs/2108.03888)
 **Year:** 2021
 Aman Priyanshu, Rakshit Naidu, Fatemehsadat Mireshghallah, Mohammad Malekzadeh
 Privacy Preserving Machine Learning Workshop, ACM CCS 2021
 
-### [Something Something Hota Hai! An Explainable Approach towards Sentiment Analysis on Indian Code-Mixed Data](https://aclanthology.org/2021.wnut-1.48/)
-**Year:** 2021
-Aman Priyanshu, Aleti Vardhan, Sudarshan Sivakumar, Supriti Vijay, Nipuna Chhabra
-Workshop on Noisy User-generated Text (W-NUT), EMNLP 2021
-
 ### [When Differential Privacy Meets Interpretability: A Case Study](https://arxiv.org/abs/2106.13203)
 **Year:** 2021
 Rakshit Naidu, Aman Priyanshu, Aadith Kumar, Sasikanth Kotti, Haofan Wang, Fatemehsadat Mireshghallah
 Responsible Computer Vision Workshop, CVPR 2021 & Privacy Preserving Machine Learning Workshop, ACM CCS 2021
-
-### [Continual Distributed Learning for Crisis Management](https://arxiv.org/abs/2104.12876)
-**Year:** 2021
-Aman Priyanshu, Mudit Sinha, Shreyans Mehta
-3rd Workshop on Continual and Multimodal Learning for Internet of Things, IJCAI 2021
-
-### [FedPandemic: A Cross-Device Federated Learning Approach Towards Elementary Prognosis of Diseases During a Pandemic](https://arxiv.org/abs/2104.01864)
-**Year:** 2021
-Aman Priyanshu, Rakshit Naidu
-Machine Learning for Preventing and Combating Pandemics & Distributed and Private Machine Learning Workshops, ICLR 2021
-
-### [Stance Classification with Improved Elementary Classifiers Using Lemmatization (Grand Challenge)](https://www.doi.org/10.1109/BigMM50055.2020.00077)
-**Year:** 2020
-Aman Priyanshu, Vedant Rishi Das, Shashank Rajiv Moghe, Harsh Rathod, Sai Sravan Medicherla, Mini Shail Chhabra, Sarthak Shastri
-IEEE Sixth International Conference on Multimedia Big Data (BigMM)
 
 ---
 
