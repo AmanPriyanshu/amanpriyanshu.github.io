@@ -113,8 +113,8 @@ Analysis uncovered that single-character tokens, especially English alphabet cha
 
 ### [Think Before You Retrieve: Learning Test-Time Adaptive Search with Small Language Models](https://arxiv.org/abs/2511.07581)
 **Year:** 2025
-Supriti Vijay, Aman Priyanshu, Anu Vellore, Baturay Saglam, Amin Karbasi
-arXiv Preprint
+Supriti Vijay*, Aman Priyanshu*, Anu Vellore, Baturay Saglam, Amin Karbasi
+arXiv Preprint / Accepted at Conference on Applied Machine Learning in Information Security (CAMLIS)
 
 ### [Llama-3.1-FoundationAI-SecurityLLM-Base-8B Technical Report](https://arxiv.org/abs/2504.21039)
 **Year:** 2025
@@ -128,7 +128,7 @@ USENIX Conference on Privacy Engineering Practice and Respect
 
 ### [FRACTURED-SORRY-Bench: Framework for Revealing Attacks in Conversational Turns Undermining Refusal Efficacy and Defenses over SORRY-Bench](https://arxiv.org/abs/2408.16163)
 **Year:** 2024
-Aman Priyanshu, Supriti Vijay
+Aman Priyanshu*, Supriti Vijay*
 arXiv Preprint
 
 ### [AI Governance and Accountability: An Analysis of Anthropic's Claude](https://arxiv.org/abs/2407.01557)
@@ -138,17 +138,17 @@ arXiv Preprint
 
 ### [Are Chatbots Ready for Privacy-Sensitive Applications? An Investigation into Input Regurgitation and Prompt-Induced Sanitization](https://arxiv.org/abs/2305.15008)
 **Year:** 2023
-Aman Priyanshu, Supriti Vijay, Ayush Kumar, Rakshit Naidu, Fatemehsadat Mireshghallah
+Aman Priyanshu*, Supriti Vijay*, Ayush Kumar, Rakshit Naidu, Fatemehsadat Mireshghallah
 arXiv Preprint
 
 ### [AdaptKeyBERT: An Attention-Based Approach Towards Few-Shot & Zero-Shot Domain Adaptation of KeyBERT](https://arxiv.org/abs/2211.07499)
 **Year:** 2022
-Aman Priyanshu, Supriti Vijay
+Aman Priyanshu*, Supriti Vijay*
 arXiv Preprint
 
 ### [NERDA-Con: Extending NER models for Continual Learning - Integrating Distinct Tasks and Updating Distribution Shifts](https://arxiv.org/abs/2206.14607)
 **Year:** 2022
-Supriti Vijay, Aman Priyanshu
+Supriti Vijay*, Aman Priyanshu*
 Updatable Machine Learning Workshop, ICML 2022
 
 ### [Efficient Hyperparameter Optimization for Differentially Private Deep Learning](https://arxiv.org/abs/2108.03888)
@@ -158,7 +158,7 @@ Privacy Preserving Machine Learning Workshop, ACM CCS 2021
 
 ### [When Differential Privacy Meets Interpretability: A Case Study](https://arxiv.org/abs/2106.13203)
 **Year:** 2021
-Rakshit Naidu, Aman Priyanshu, Aadith Kumar, Sasikanth Kotti, Haofan Wang, Fatemehsadat Mireshghallah
+Rakshit Naidu*, Aman Priyanshu*, Aadith Kumar, Sasikanth Kotti, Haofan Wang, Fatemehsadat Mireshghallah
 Responsible Computer Vision Workshop, CVPR 2021 & Privacy Preserving Machine Learning Workshop, ACM CCS 2021
 
 ---
