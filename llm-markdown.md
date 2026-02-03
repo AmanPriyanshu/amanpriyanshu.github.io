@@ -6,7 +6,7 @@ Hi, I'm Aman!
 
 I'm an AI Researcher at[Foundation-AI](https://fdtn.ai)([Cisco](https://www.cisco.com)) specializing in foundation models for security applications, particularly reasoning, long-horizon planning, and agentic systems. My research spans AI for security, AI security, privacy-preserving ML, and LLM safety, with work deployed in production models that have seen 300K+ downloads (in 2025 alone). My AI Safety work has been featured in[SC Magazine](https://www.scmagazine.com/news/metas-promptguard-model-bypassed-by-simple-jailbreak-researchers-say),[The Register](https://www.theregister.com/2024/07/29/meta_ai_safety/), and other outlets, and led to invitations to[OpenAI's Red Teaming Network](https://drive.google.com/file/d/1V7x-jaOLKZyGTJNAYCH9tIwi5-zLybJJ/view?usp=sharing)and[Anthropic's Model Safety Bug Bounty Program](https://drive.google.com/file/d/1RrJK3BEZaVdvIO30q7aFIJ6z0KpyqmDu/view?usp=sharing).
 
-With a[Masters in Privacy Engineering from Carnegie Mellon University](https://privacy.cs.cmu.edu), I've published at venues like USENIX and AAAI. I worked with[Professor Norman Sadeh](https://s3d.cmu.edu/people/core-faculty/sadeh-norman.html)on LLM security research and[Niloofar Mireshghallah](https://www.cs.cmu.edu/~nmireshg/)on privacy-preserving ML. Currently, I build specialized RL environments for security domains, including custom CTF environments for automated penetration testing curriculum training and vulnerability detection frameworks for iterative code patch discovery.
+With a[Masters in Privacy Engineering from Carnegie Mellon University](https://privacy.cs.cmu.edu), I've published at venues like USENIX and AAAI. I worked with[Professor Norman Sadeh](https://s3d.cmu.edu/people/core-faculty/sadeh-norman.html)on LLM security research and[Niloofar Mireshghallah](https://mireshghallah.github.io/)on privacy-preserving ML. Currently, I build specialized RL environments for security domains, including custom CTF environments for automated penetration testing curriculum training and vulnerability detection frameworks for iterative code patch discovery.
 
 ## Contact & Links
 
@@ -269,41 +269,37 @@ Key Courses: Data Structures and Algorithms, Design and Analysis of Algorithms, 
 
 ## Relevant Projects
 
-### [ProTaska-GPT](https://pypi.org/project/ProTaska-GPT/)
-June 2023
-Specify your dataset of choice, and ProTaska-GPT will understand the dataset with tasks, tutorials, and actionable insights for it. Accelerate your data science journey with ease and efficiency! (Meant for people starting their journey into Data Science.)
+### [Foundation-Sec-8B Family](https://huggingface.co/collections/fdtn-ai/foundation-sec-8b)
+April 2025 - January 2026
+Released production security LLMs (200K+ downloads) spanning Base, Instruct, and Reasoning 8B variants. Created custom RLVR (Reinforcement Learning from Verifiable Rewards) cybersecurity environments for training reasoning capabilities. Models achieve state-of-the-art performance on CTI benchmarks while being deployable on-premise for sensitive security workflows.
+
+### [ARGUS: Iterative Retrieval for Vulnerable Code Discovery](https://www.youtube.com/watch?v=Pj8yTn6CF2Y)
+August 2025
+Built first-ever RL environment for iterative vulnerability retrieval with 4,500 GitHub Security Advisories. ARGUS-LLaMA-1B (43.9% success) outperforms GPT-4o (39.3%) and LLaMA-405B (41.8%) at 400× smaller size. Presented at CAMLIS 2025. Framework enables automated "reason, search, retrieve, repeat" workflows for discovering vulnerable code in large repositories.
+
+### [GPT-OSS Expert Fingerprinting](https://amanpriyanshu.github.io/GPT-OSS-MoE-ExpertFingerprinting/)
+August 2025
+Released 232 domain-specialized models 4.2B to 20B (30K+ downloads within 6 months of release) by analyzing expert activation patterns in GPT-OSS-20B's Mixture-of-Experts architecture. Strategic pruning of underutilized experts maintains performance while reducing computational overhead. Includes interactive analytics dashboard and layer comparison tools for behavioral pattern analysis.
+
+### [Orion: Adaptive Search with Small Language Models](https://arxiv.org/abs/2511.07581)
+November 2025
+Research on multi-turn retrieval architecture enabling compact models (350M-1.2B) to outperform systems 400× larger. Combines synthetic trajectory generation, turn-level reinforcement learning, and beam search for adaptive information retrieval. Achieves 77.6% on SciFact (vs 72.6% prior SOTA) and 25.2% on BRIGHT (vs 22.1%).
 
 ### [AdaptKeyBERT](https://pypi.org/project/adaptkeybert/)
 October 2022
-Built a python library, integrating semi-supervised attention for creating a few-shot & zero-shot domain adaptation technique for keyphrase extraction.
-
-### [DP-SDV](https://github.com/AmanPriyanshu/DPSDV)
-June 2022
-Creating a Differential Privacy securing Synthetic Data Generation for tabular, relational and time series data.
-
-### [NERDA-Con](https://pypi.org/project/NERDA-Con/)
-May 2022
-NERDA-Con is a python package, a pipeline for training Named Entity Recognition (NER) with Large Language Models bases by incorporating the concept of Elastic Weight Consolidation (EWC) into the NER fine-tuning NERDA pipeline.
+Built a Python library integrating semi-supervised attention for few-shot and zero-shot domain adaptation in keyphrase extraction. Library has been adopted by researchers across multiple domains for keyword extraction tasks.
 
 ### [DP-HyperparamTuning](https://github.com/AmanPriyanshu/DP-HyperparamTuning)
 August 2021
-DP-HyperparamTuning offers an array of tools for fast and easy hypertuning of various hyperparameters for the DP-SGD algorithm. We proposed a novel, customizable reward function that allows users to define a single objective function for establishing their desired privacy-utility tradeoff.
+Tools for hyperparameter optimization in DP-SGD training. Proposed novel customizable reward function enabling users to define privacy-utility tradeoffs through single objective optimization.
 
 ### [Hexa Lite](https://github.com/AmanPriyanshu/HexaLite)
 August 2021
-Created an unsupervised machine learning to extract contextually similar texts. The project was used in indexing Academic Literature, Law Precedents, and Financial Records. The project won Code Innovation Series - a Hackathon in association with GitHub.
+Unsupervised ML system for extracting contextually similar texts, applied to indexing academic literature, law precedents, and financial records. Won Code Innovation Series hackathon in association with GitHub.
 
 ### [Augmented Face Detection API](https://github.com/sarthak815/Face-Detection_Model-HackRx2.0)
 July 2021
-The app performs obstruction detection, spoof detection, blur detection and environment approval. Utilized Deep Neural Networks and Genetic Algorithms to achieve these goals in low computational time. The project won 1st place in HackRx 2.0 by Bajaj Finserv.
-
-### [DeCrise](https://devpost.com/software/decrisis)
-May 2021
-DeCrise is an online platform that acts as an aggregator for public support/utility services which uses continual-federated-learning to create a quick response information retrieval system during a natural disaster. The project won 1st place in The ACM UCM Datathon.
-
-### [Voix](https://devpost.com/software/voix)
-April 2021
-A social-media platform employing machine learning and differential privacy to promote civic engagement while protecting user-privacy. The project won under the Community & Civic Engagement for UC Berkeley's CalHacks Hackathon.
+Real-time face verification system with obstruction detection, spoof detection, blur detection, and environment approval. Utilized deep neural networks and genetic algorithms for low-latency performance. Won 1st place in HackRx 2.0 by Bajaj Finserv.
 
 ---
 
