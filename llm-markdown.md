@@ -165,8 +165,8 @@ Responsible Computer Vision Workshop, CVPR 2021 & Privacy Preserving Machine Lea
 
 ## Curated Blogs
 
-### [GPT-OSS Expert Fingerprinting and MoE Pruning](https://github.com/AmanPriyanshu/GPT-OSS-MoE-ExpertFingerprinting/)
-Released 232 domain-specialized models from 4.2B to 20B (downloaded 30K+ times within 6 months of release) by analyzing expert activations and strategically pruning them.
+### [GPT-OSS Expert Analysis & Pruning](https://github.com/AmanPriyanshu/GPT-OSS-MoE-ExpertFingerprinting/)
+Released 232 domain-specialized models from 4.2B to 20B (downloaded 30K+ times within 6 months) by analyzing expert activations and pruning.
 
 ### [Breaching Privacy in Real-World Synthetic Data](https://amanpriyanshu.github.io/SynthLeak/)
 We cracked a real-world differentially private synthetic data by linking public information to exposed PII overnight.
