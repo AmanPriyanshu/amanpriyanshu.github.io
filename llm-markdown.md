@@ -29,7 +29,7 @@ Cisco AI researcher Aman Priyanshu is developing autonomous vulnerability search
 
 ### Foundation-sec-8b: Cisco Foundation AI's First Open-Source Security Model
 *Source: Cisco Blogs*
-Cisco Foundation AI's first open-source security model, trained and developed by Aman Priyanshu and team, providing foundational capabilities for cybersecurity applications.
+Cisco Foundation AI's first open-source security base model, trained by Aman Priyanshu & team.
 [Read more](https://blogs.cisco.com/security/foundation-sec-cisco-foundation-ai-first-open-source-security-model)
 
 ### Meta's PromptGuard model bypassed by simple jailbreak, researchers say
@@ -39,7 +39,7 @@ Meta's Prompt-Guard, is vulnerable to a simple exploit with a 99.8% success rate
 
 ### Foundation-sec-8B-Instruct: An Out-of-the-Box Security Copilot
 *Source: Cisco Blogs*
-Release of the instruction-tuned variant of Foundation-sec-8B, developed by Aman Priyanshu and team, enabling ready-to-use security assistance and analysis capabilities.
+Release of the instruction-tuned Foundation-sec-8B, developed by Aman Priyanshu & team, enabling ready-to-use security assistance and analysis.
 [Read more](https://blogs.cisco.com/security/foundation-sec-8b-instruct-out-of-the-box-security-copilot)
 
 ### Protecting LLMs from Jailbreaks
@@ -49,7 +49,7 @@ Priyanshu said the biggest risk is organizations assuming their jailbreaking def
 
 ### Foundation-sec-8B-Reasoning: The First Open-weight Security Reasoning Model
 *Source: Cisco Blogs*
-The first open-weight security reasoning model, trained by Aman Priyanshu and team using custom RLVR environments, achieving state-of-the-art performance on cybersecurity benchmarks.
+The first open-weight security reasoning model, trained by Aman Priyanshu & team using custom RLVR environments.
 [Read more](https://blogs.cisco.com/security/foundation-sec-8b-reasoning-first-open-weight-security-reasoning-model)
 
 ### Reasoning Models: An Introduction to More Logical Models
@@ -207,26 +207,6 @@ We broke AI safeguards by splitting harmful prompts into innocent sub-questions.
 ### [MITACS Research Intern](https://www.concordia.ca/)
 **Organization:** Concordia University, Quebec, Canada
 **Duration:** May 2022 - Aug 2022
-
-### [Federated Learning Intern](https://www.dynamofl.com/)
-**Organization:** DynamoFL, California, USA
-**Duration:** March 2022 - May 2022
-
-### [Undergraduate Research Assistant](https://manipal.edu/mit.html)
-**Organization:** Manipal Institute of Technology, Karnataka, India
-**Duration:** May 2021 - Jun 2023
-
-### [Expertise Sub-Head, Artificial Intelligence](https://www.researchsocietymit.com/)
-**Organization:** Research Society Manipal, Karnataka, India
-**Duration:** Feb 2021 - Dec 2022
-
-### [Technical Head](https://cryptonite.team/index.html)
-**Organization:** Cryptonite Student Project
-**Duration:** June 2021 - Dec 2022
-
-### Machine Learning and Web Crawling Intern
-**Organization:** Oniria Pets, Poland
-**Duration:** Jan 2020 - Feb 2020
 
 ---
 
