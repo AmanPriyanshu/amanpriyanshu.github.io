@@ -736,7 +736,7 @@
             <br><br>
             I'm an AI Researcher at <a href="https://fdtn.ai">Foundation-AI</a> (<a href="https://www.cisco.com">Cisco</a>) specializing in foundation models for security applications, particularly reasoning, long-horizon planning, and agentic systems. My research spans AI for security, AI security, privacy-preserving ML, and LLM safety, with work deployed in production models that have seen 300K+ downloads (in 2025 alone). My AI Safety work has been featured in <a href="https://www.scmagazine.com/news/metas-promptguard-model-bypassed-by-simple-jailbreak-researchers-say">SC Magazine</a>, <a href="https://www.theregister.com/2024/07/29/meta_ai_safety/">The Register</a>, and other outlets, and led to invitations to <a href="https://drive.google.com/file/d/1V7x-jaOLKZyGTJNAYCH9tIwi5-zLybJJ/view?usp=sharing">OpenAI's Red Teaming Network</a> and <a href="https://drive.google.com/file/d/1RrJK3BEZaVdvIO30q7aFIJ6z0KpyqmDu/view?usp=sharing">Anthropic's Model Safety Bug Bounty Program</a>.
             <br><br>
-            With a <a href="https://privacy.cs.cmu.edu">Masters in Privacy Engineering from Carnegie Mellon University</a>, I've published at venues like USENIX and AAAI. I worked with <a href="https://s3d.cmu.edu/people/core-faculty/sadeh-norman.html">Professor Norman Sadeh</a> on LLM security research and <a href="https://www.cs.cmu.edu/~nmireshg/">Niloofar Mireshghallah</a> on privacy-preserving ML. Currently, I build specialized RL environments for security domains, including custom CTF environments for automated penetration testing curriculum training and vulnerability detection frameworks for iterative code patch discovery.
+            With a <a href="https://privacy.cs.cmu.edu">Masters in Privacy Engineering from Carnegie Mellon University</a>, I've published at venues like USENIX and AAAI. I worked with <a href="https://s3d.cmu.edu/people/core-faculty/sadeh-norman.html">Professor Norman Sadeh</a> on LLM security research and <a href="https://mireshghallah.github.io/">Niloofar Mireshghallah</a> on privacy-preserving ML. Currently, I build specialized RL environments for security domains, including custom CTF environments for automated penetration testing curriculum training and vulnerability detection frameworks for iterative code patch discovery.
           </p>
         </div>
 
@@ -1439,92 +1439,82 @@
       <h2 class="section-title">Relevant Projects</h2>
       <div class="projects-container">
         <div class="project-entry">
-          <h3><a href="https://pypi.org/project/ProTaska-GPT/" target="_blank">ProTaska-GPT</a></h3>
+          <h3><a href="https://huggingface.co/collections/fdtn-ai/foundation-sec-8b" target="_blank">Foundation-Sec-8B Family</a></h3>
           <p style="margin: 0.2rem 0; color:#505050;">
-            <strong>June 2023</strong>
+            <strong>April 2025 - January 2026</strong>
           </p>
           <p style="margin-top: 0.5rem;">
-            Specify your dataset of choice, and ProTaska-GPT will understand the dataset with tasks, tutorials, and actionable insights for it. Accelerate your data science journey with ease and efficiency! (Meant for people starting their journey into Data Science.)
+            Released production security LLMs (200K+ downloads) spanning Base, Instruct, and Reasoning 8B variants. Created custom RLVR (Reinforcement Learning from Verifiable Rewards) cybersecurity environments for training reasoning capabilities. Models achieve state-of-the-art performance on CTI benchmarks while being deployable on-premise for sensitive security workflows.
           </p>
         </div>
-
+        
+        <div class="project-entry">
+          <h3><a href="https://www.youtube.com/watch?v=Pj8yTn6CF2Y" target="_blank">ARGUS: Iterative Retrieval for Vulnerable Code Discovery</a></h3>
+          <p style="margin: 0.2rem 0; color:#505050;">
+            <strong>August 2025</strong>
+          </p>
+          <p style="margin-top: 0.5rem;">
+            Built first-ever RL environment for iterative vulnerability retrieval with 4,500 GitHub Security Advisories. ARGUS-LLaMA-1B (43.9% success) outperforms GPT-4o (39.3%) and LLaMA-405B (41.8%) at 400× smaller size. Presented at CAMLIS 2025. Framework enables automated "reason, search, retrieve, repeat" workflows for discovering vulnerable code in large repositories.
+          </p>
+        </div>
+        
+        <div class="project-entry">
+          <h3><a href="https://amanpriyanshu.github.io/GPT-OSS-MoE-ExpertFingerprinting/" target="_blank">GPT-OSS Expert Fingerprinting</a></h3>
+          <p style="margin: 0.2rem 0; color:#505050;">
+            <strong>August 2025</strong>
+          </p>
+          <p style="margin-top: 0.5rem;">
+            Released 232 domain-specialized models 4.2B to 20B (30K+ downloads within 6 months of release) by analyzing expert activation patterns in GPT-OSS-20B's Mixture-of-Experts architecture. Strategic pruning of underutilized experts maintains performance while reducing computational overhead. Includes interactive analytics dashboard and layer comparison tools for behavioral pattern analysis.
+          </p>
+        </div>
+        
+        <div class="project-entry">
+          <h3><a href="https://arxiv.org/abs/2511.07581" target="_blank">Orion: Adaptive Search with Small Language Models</a></h3>
+          <p style="margin: 0.2rem 0; color:#505050;">
+            <strong>November 2025</strong>
+          </p>
+          <p style="margin-top: 0.5rem;">
+            Research on multi-turn retrieval architecture enabling compact models (350M-1.2B) to outperform systems 400× larger. Combines synthetic trajectory generation, turn-level reinforcement learning, and beam search for adaptive information retrieval. Achieves 77.6% on SciFact (vs 72.6% prior SOTA) and 25.2% on BRIGHT (vs 22.1%).
+          </p>
+        </div>
+        
         <div class="project-entry">
           <h3><a href="https://pypi.org/project/adaptkeybert/" target="_blank">AdaptKeyBERT</a></h3>
           <p style="margin: 0.2rem 0; color:#505050;">
             <strong>October 2022</strong>
           </p>
           <p style="margin-top: 0.5rem;">
-            Built a python library, integrating semi-supervised attention for creating a few-shot & zero-shot domain adaptation technique for keyphrase extraction.
+            Built a Python library integrating semi-supervised attention for few-shot and zero-shot domain adaptation in keyphrase extraction. Library has been adopted by researchers across multiple domains for keyword extraction tasks.
           </p>
         </div>
-
-        <div class="project-entry">
-          <h3><a href="https://github.com/AmanPriyanshu/DPSDV" target="_blank">DP-SDV</a></h3>
-          <p style="margin: 0.2rem 0; color:#505050;">
-            <strong>June 2022</strong>
-          </p>
-          <p style="margin-top: 0.5rem;">
-            Creating a Differential Privacy securing Synthetic Data Generation for tabular, relational and time series data.
-          </p>
-        </div>
-
-        <div class="project-entry">
-          <h3><a href="https://pypi.org/project/NERDA-Con/" target="_blank">NERDA-Con</a></h3>
-          <p style="margin: 0.2rem 0; color:#505050;">
-            <strong>May 2022</strong>
-          </p>
-          <p style="margin-top: 0.5rem;">
-            NERDA-Con is a python package, a pipeline for training Named Entity Recognition (NER) with Large Language Models bases by incorporating the concept of Elastic Weight Consolidation (EWC) into the NER fine-tuning NERDA pipeline.
-          </p>
-        </div>
-
+        
         <div class="project-entry">
           <h3><a href="https://github.com/AmanPriyanshu/DP-HyperparamTuning" target="_blank">DP-HyperparamTuning</a></h3>
           <p style="margin: 0.2rem 0; color:#505050;">
             <strong>August 2021</strong>
           </p>
           <p style="margin-top: 0.5rem;">
-            DP-HyperparamTuning offers an array of tools for fast and easy hypertuning of various hyperparameters for the DP-SGD algorithm. We proposed a novel, customizable reward function that allows users to define a single objective function for establishing their desired privacy-utility tradeoff.
+            Tools for hyperparameter optimization in DP-SGD training. Proposed novel customizable reward function enabling users to define privacy-utility tradeoffs through single objective optimization.
           </p>
         </div>
-
+        
         <div class="project-entry">
           <h3><a href="https://github.com/AmanPriyanshu/HexaLite" target="_blank">Hexa Lite</a></h3>
           <p style="margin: 0.2rem 0; color:#505050;">
             <strong>August 2021</strong>
           </p>
           <p style="margin-top: 0.5rem;">
-            Created an unsupervised machine learning to extract contextually similar texts. The project was used in indexing Academic Literature, Law Precedents, and Financial Records. The project won Code Innovation Series - a Hackathon in association with GitHub.
+            Unsupervised ML system for extracting contextually similar texts, applied to indexing academic literature, law precedents, and financial records. Won Code Innovation Series hackathon in association with GitHub.
           </p>
         </div>
-
+        
         <div class="project-entry">
           <h3><a href="https://github.com/sarthak815/Face-Detection_Model-HackRx2.0" target="_blank">Augmented Face Detection API</a></h3>
           <p style="margin: 0.2rem 0; color:#505050;">
             <strong>July 2021</strong>
           </p>
           <p style="margin-top: 0.5rem;">
-            The app performs obstruction detection, spoof detection, blur detection and environment approval. Utilized Deep Neural Networks and Genetic Algorithms to achieve these goals in low computational time. The project won 1st place in HackRx 2.0 by Bajaj Finserv.
-          </p>
-        </div>
-
-        <div class="project-entry">
-          <h3><a href="https://devpost.com/software/decrisis" target="_blank">DeCrise</a></h3>
-          <p style="margin: 0.2rem 0; color:#505050;">
-            <strong>May 2021</strong>
-          </p>
-          <p style="margin-top: 0.5rem;">
-            DeCrise is an online platform that acts as an aggregator for public support/utility services which uses continual-federated-learning to create a quick response information retrieval system during a natural disaster. The project won 1st place in The ACM UCM Datathon.
-          </p>
-        </div>
-
-        <div class="project-entry">
-          <h3><a href="https://devpost.com/software/voix" target="_blank">Voix</a></h3>
-          <p style="margin: 0.2rem 0; color:#505050;">
-            <strong>April 2021</strong>
-          </p>
-          <p style="margin-top: 0.5rem;">
-            A social-media platform employing machine learning and differential privacy to promote civic engagement while protecting user-privacy. The project won under the Community & Civic Engagement for UC Berkeley's CalHacks Hackathon.
+            Real-time face verification system with obstruction detection, spoof detection, blur detection, and environment approval. Utilized deep neural networks and genetic algorithms for low-latency performance. Won 1st place in HackRx 2.0 by Bajaj Finserv.
           </p>
         </div>
       </div>
@@ -1898,7 +1888,7 @@
       <br><br>
       I'm an AI Researcher at <a href="https://fdtn.ai">Foundation-AI</a> (<a href="https://www.cisco.com">Cisco</a>) specializing in foundation models for security applications, particularly reasoning, long-horizon planning, and agentic systems. My research spans AI for security, AI security, privacy-preserving ML, and LLM safety, with work deployed in production models that have seen 300K+ downloads (in 2025 alone). My AI Safety work has been featured in <a href="https://www.scmagazine.com/news/metas-promptguard-model-bypassed-by-simple-jailbreak-researchers-say">SC Magazine</a>, <a href="https://www.theregister.com/2024/07/29/meta_ai_safety/">The Register</a>, and other outlets, and led to invitations to <a href="https://drive.google.com/file/d/1V7x-jaOLKZyGTJNAYCH9tIwi5-zLybJJ/view?usp=sharing">OpenAI's Red Teaming Network</a> and <a href="https://drive.google.com/file/d/1RrJK3BEZaVdvIO30q7aFIJ6z0KpyqmDu/view?usp=sharing">Anthropic's Model Safety Bug Bounty Program</a>.
       <br><br>
-      With a <a href="https://privacy.cs.cmu.edu">Masters in Privacy Engineering from Carnegie Mellon University</a>, I've published at venues like USENIX and AAAI. I worked with <a href="https://s3d.cmu.edu/people/core-faculty/sadeh-norman.html">Professor Norman Sadeh</a> on LLM security research and <a href="https://www.cs.cmu.edu/~nmireshg/">Niloofar Mireshghallah</a> on privacy-preserving ML. Currently, I build specialized RL environments for security domains, including custom CTF environments for automated penetration testing curriculum training and vulnerability detection frameworks for iterative code patch discovery.
+      With a <a href="https://privacy.cs.cmu.edu">Masters in Privacy Engineering from Carnegie Mellon University</a>, I've published at venues like USENIX and AAAI. I worked with <a href="https://s3d.cmu.edu/people/core-faculty/sadeh-norman.html">Professor Norman Sadeh</a> on LLM security research and <a href="https://mireshghallah.github.io/">Niloofar Mireshghallah</a> on privacy-preserving ML. Currently, I build specialized RL environments for security domains, including custom CTF environments for automated penetration testing curriculum training and vulnerability detection frameworks for iterative code patch discovery.
     `;
     
     const firstPersonShort = `
@@ -1908,7 +1898,7 @@
     const thirdPersonFull = `  
       Aman Priyanshu is an AI Researcher at <a href="https://fdtn.ai">Foundation-AI</a> (<a href="https://www.cisco.com">Cisco</a>), specializing in foundation models for security applications, particularly reasoning, long-horizon planning, and agentic systems. His research spans AI for security, AI security, privacy-preserving ML, and LLM safety, with work deployed in production models that have seen 300K+ downloads (in 2025 alone). His AI Safety work has been featured in <a href="https://www.scmagazine.com/news/metas-promptguard-model-bypassed-by-simple-jailbreak-researchers-say">SC Magazine</a>, <a href="https://www.theregister.com/2024/07/29/meta_ai_safety/">The Register</a>, and other outlets, and led to invitations to <a href="https://drive.google.com/file/d/1V7x-jaOLKZyGTJNAYCH9tIwi5-zLybJJ/view?usp=sharing">OpenAI's Red Teaming Network</a> and <a href="https://drive.google.com/file/d/1RrJK3BEZaVdvIO30q7aFIJ6z0KpyqmDu/view?usp=sharing">Anthropic's Model Safety Bug Bounty Program</a>.
       <br><br>
-      With a <a href="https://privacy.cs.cmu.edu">Masters in Privacy Engineering from Carnegie Mellon University</a>, Aman has published at venues like USENIX and AAAI. He worked with <a href="https://s3d.cmu.edu/people/core-faculty/sadeh-norman.html">Professor Norman Sadeh</a> on LLM security research and <a href="https://www.cs.cmu.edu/~nmireshg/">Niloofar Mireshghallah</a> on privacy-preserving ML. Currently, he builds specialized RL environments for security domains, including custom CTF environments for automated penetration testing curriculum training and vulnerability detection frameworks for iterative code patch discovery.
+      With a <a href="https://privacy.cs.cmu.edu">Masters in Privacy Engineering from Carnegie Mellon University</a>, Aman has published at venues like USENIX and AAAI. He worked with <a href="https://s3d.cmu.edu/people/core-faculty/sadeh-norman.html">Professor Norman Sadeh</a> on LLM security research and <a href="https://mireshghallah.github.io/">Niloofar Mireshghallah</a> on privacy-preserving ML. Currently, he builds specialized RL environments for security domains, including custom CTF environments for automated penetration testing curriculum training and vulnerability detection frameworks for iterative code patch discovery.
     `;
     
     const thirdPersonShort = `
