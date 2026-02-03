@@ -22,37 +22,52 @@ With a[Masters in Privacy Engineering from Carnegie Mellon University](https://p
 
 ## News & Media Coverage
 
+### 7 top cybersecurity projects for 2026
+*Source: CSO Online*
+Cisco AI researcher Aman Priyanshu is developing autonomous vulnerability search agents using SLMs that mimic human analyst workflows through iterative investigation...
+[Read more](https://www.csoonline.com/article/3806891/7-top-cybersecurity-projects-for-2026.html)
+
+### Foundation-sec-8b: Cisco Foundation AI's First Open-Source Security Model
+*Source: Cisco Blogs*
+Cisco Foundation AI's first open-source security model, trained and developed by Aman Priyanshu and team, providing foundational capabilities for cybersecurity applications.
+[Read more](https://blogs.cisco.com/security/foundation-sec-cisco-foundation-ai-first-open-source-security-model)
+
 ### Meta's PromptGuard model bypassed by simple jailbreak, researchers say
 *Source: SC Media*
 Meta's Prompt-Guard, is vulnerable to a simple exploit with a 99.8% success rate... AI Security Researcher Aman Priyanshu wrote in a blog post...
 [Read more](https://www.scmagazine.com/news/metas-promptguard-model-bypassed-by-simple-jailbreak-researchers-say)
 
-### Meta's AI safety system defeated by the space bar
-*Source: The Register*
-'Ignore previous instructions' thwarts Prompt-Guard model if you just add some good ol' ASCII code 32... But Priyanshu found that the fine-tuning...
-[Read more](https://www.theregister.com/2024/07/29/meta_ai_safety/)
+### Foundation-sec-8B-Instruct: An Out-of-the-Box Security Copilot
+*Source: Cisco Blogs*
+Release of the instruction-tuned variant of Foundation-sec-8B, developed by Aman Priyanshu and team, enabling ready-to-use security assistance and analysis capabilities.
+[Read more](https://blogs.cisco.com/security/foundation-sec-8b-instruct-out-of-the-box-security-copilot)
 
 ### Protecting LLMs from Jailbreaks
 *Source: Communications of the ACM*
 Priyanshu said the biggest risk is organizations assuming their jailbreaking defenses are 100% effective.
 [Read more](https://cacm.acm.org/news/protecting-llms-from-jailbreaks/)
 
+### Foundation-sec-8B-Reasoning: The First Open-weight Security Reasoning Model
+*Source: Cisco Blogs*
+The first open-weight security reasoning model, trained by Aman Priyanshu and team using custom RLVR environments, achieving state-of-the-art performance on cybersecurity benchmarks.
+[Read more](https://blogs.cisco.com/security/foundation-sec-8b-reasoning-first-open-weight-security-reasoning-model)
+
+### Reasoning Models: An Introduction to More Logical Models
+*Source: Cisco & TILOS Faculty Talks*
+Exploring reasoning models, their training, common pitfalls, and solutions as an AI Researcher @ Cisco.
+[Read more](https://tilos.ai/tilos-cisco-workshop-on-ai-security/#:~:text=Cisco%20and%20TILOS%20Faculty%20Talks%0ATBA%0A%C2%A0%C2%A0%C2%A0Aman%20Priyanshu%2C%20Cisco%20AI%20Safety%20and%20Privacy)
+
 ### The AI Transparency Gap: What Users Don't Know Can Hurt You
 *Source: VKTR*
 ...adopt privacy-preserving technologies such as differential privacy or fine-tuning with synthetic data... as Priyanshu explained.
 [Read more](https://www.vktr.com/ai-technology/the-ai-transparency-gap-what-users-dont-know-can-hurt-you/)
-
-### 7 top cybersecurity projects for 2026
-*Source: CSO Online*
-Cisco AI researcher Aman Priyanshu is developing autonomous vulnerability search agents using SLMs that mimic human analyst workflows through iterative investigation...
-[Read more](https://www.csoonline.com/article/3806891/7-top-cybersecurity-projects-for-2026.html)
 
 ### ChatGPT Might Have a School Shοοting Problem
 *Source: The Trace*
 ...breaking a single prohibited request into several innocuous-seeming questions can make an AI system more than five times as likely to produce a harmful response - Supriti & Aman
 [Read more](https://www.thetrace.org/2025/12/school-shooting-chatgpt-ai-plan-research/)
 
-### Bypassing OpenAI's Structured Outputs: Another Simple Jailbreak - Aman Priyanshu
+### Bypassing OpenAI's Structured Outputs - Aman Priyanshu
 *Source: Cisco Blogs*
 ENUM-based attack achieved an ASR of 52.89%, compared to 12.44% for normal API calling... - Aman
 [Read more](https://blogs.cisco.com/security/bypassing-openais-structured-outputs-another-simple-jailbreak)
@@ -62,50 +77,10 @@ ENUM-based attack achieved an ASR of 52.89%, compared to 12.44% for normal API c
 Aman Priyanshu and Supriti Vijay analysed expert activations in gpt-oss-20b and pruned under-utilised experts across domain-specialised variants... With this work I imagine pruning will get more attention...
 [Read more](https://www.equinox.co.nz/blog/the-gpt-oss-blossom)
 
-### PEPR '24 - Through the Lens of LLMs: Unveiling Differential Privacy Challenges
-*Source: USENIX YouTube Channel*
-...into their isolated clusters consistently, meaning users who have said interests... can be more easily reidentified. - Aman
-[Read more](https://www.youtube.com/watch?v=WylO_cAOw9g)
-
-### Meta's AI safety model vulnerable to simple space bar trick
-*Source: News Bytes*
-Aman Priyanshu, a bug hunter with enterprise AI application security firm Robust Intelligence, discovered this safety bypass...
-[Read more](https://www.newsbytesapp.com/news/science/meta-s-latest-ai-safety-model-is-not-foolproof/story)
-
-### Meta Prompt Guard Is Vulnerable to Prompt Injection Attacks
-*Source: Bank Info Security*
-"The bypass involves inserting character-wise spaces between all English alphabet characters in a given prompt..." - Aman
-[Read more](https://www.bankinfosecurity.com/researchers-prompt-injection-attack-metas-prompt-guard-a-25886)
-
-### Reasoning Models: An Introduction to More Logical Models
-*Source: Cisco & TILOS Faculty Talks*
-Exploring reasoning models, their training, common pitfalls, and solutions as an AI Researcher @ Cisco.
-[Read more](https://tilos.ai/tilos-cisco-workshop-on-ai-security/#:~:text=Cisco%20and%20TILOS%20Faculty%20Talks%0ATBA%0A%C2%A0%C2%A0%C2%A0Aman%20Priyanshu%2C%20Cisco%20AI%20Safety%20and%20Privacy)
-
-### Paving your Research Journey - A guide to undergraduate research
-*Source: The Research Society MIT*
-Sharing insights on academic paper structure, journal selection, etc. for emerging researchers at RSM (AI Sub-Head).
-[Read more](https://www.youtube.com/watch?v=7wdH6-XxIRM)
-
-### CyLab researchers to present at USENIX PEPR 2025
-*Source: CyLab*
-Even with conservative epsilon values (ε<10), document formatting and contextual patterns can create unexpected privacy challenges... - Aman
-[Read more](https://www.cylab.cmu.edu/news/2025/05/27-cylab-presents-at-pepr-2025.html)
-
-### Study Shows Meta AI Safety System Easily Compromised
-*Source: ChannelE2E*
-...the need for a multi-layer approach," said Robust Intelligence AI Security Researcher Aman Priyanshu.
-[Read more](https://www.channele2e.com/brief/study-shows-meta-ai-safety-system-easily-compromised)
-
 ### Brewing Brilliance: Hackathons, Research, and Life with Aman Priyanshu | Koffee Conversation @TEIF
 *Source: The Koffee Conversation Show*
 ...got into privacy preserving ML optimization @ Eder Labs and AI Security @ Robust Intelligence...
 [Read more](https://www.youtube.com/watch?v=GBBmd9YhE00)
-
-### Bypassing Meta's LLaMA Classifier: A Simple Jailbreak - Aman Priyanshu
-*Source: Cisco Blogs*
-Analysis uncovered that single-character tokens, especially English alphabet characters, showed minimal changes...
-[Read more](https://blogs.cisco.com/security/bypassing-metas-llama-classifier-a-simple-jailbreak)
 
 ---
 
@@ -305,53 +280,17 @@ Real-time face verification system with obstruction detection, spoof detection, 
 
 ## Achievements
 
-### [Strong Compute Hackathon Winner - ARC AGI Track](https://www.linkedin.com/posts/sanika-chavan_outthinking-the-arc-im-thrilled-to-ugcPost-7319811639141113856-oTRK)
-April 2025
-Won the ARC AGI Track with a multi-stage reasoning framework for VLLMs using custom token blocks and synthetic reasoning chains to induce planning-based reasoning, achieving 75+% resolution rate on the training set.
-
-### [Spark Grant Winner - NOVA Hacks](https://www.linkedin.com/posts/suriya-ganesh_today-we-received-a-grant-of-1k-as-part-activity-7180045427470127104-R5H_)
-March 2024
-Won the Spark Grant for our app that enhances speech for non-native English speakers, employing prompt-engineering function-calling (OpenAI GPT4/3.5) and Speech-to-Text (OpenAI Whisper), with features like audio-segmentation, speaker-recognition, and diarization.
-
-### [Space Theme Category Winner - HackCMU](https://www.linkedin.com/feed/update/urn:li:activity:7127346447670222850/)
-September 2023
-Won the Space-Themed track with our space trash collection project using Pareto optimization to balance time, fuel requirements, satellite movements, planetary alignment, and the trajectory of trash collectors for predicting monetary incentives.
+### [15+ Hackathon Wins]()
+2020 - 2025
+15+ hackathon wins across ML/AI competitions including 1st place at Strong Compute (ARC AGI), HackRx (Bajaj Finserv), Code Innovation Series, ACM Datathon, CalHacks; 2nd place at IEEE BigMM, BobHacks, ShowYourSkill. Projects spanned reasoning frameworks, speech processing, optimization, and privacy-preserving ML.
 
 ### [Research & Travel Grant - AAAI Undergraduate Consortium Scholar](https://aaai-uc.github.io/2023_scholars.html#aman-priyanshu)
 February 2023
 Selected as one of twelve individuals for the AAAI UC program, recognizing my research on Privacy and Fairness.
 
-### [Second Runners-Up - ShowYourSkill (Coursera)](https://drive.google.com/file/d/1RLZHDSceNQRKHYpQWOXHcDxoBvC1Er26/view?usp=sharing)
+### [MITACS Globalink Research Scholar]()
 June 2022
-Came second runners-up in #ShowYourSkill where we participated in the Research & Reports Track and creating a NLP augmented Machine Learning Application for women safety.
-
-### [Runners-Up - BobHacks 2021](https://drive.google.com/file/d/1sFSGr4Qj3KBNhL1fjyhDTTKjW2jpEY0l/view?usp=sharing)
-September 2021
-Came runners-up in BobHacks where we built a pattern recognition API built on top of the MetaBob API. The API is able to assist users in tracking common errors and delivers pattern recognition on the MetaBob API.
-
-### [First Prize - Code Innovation Series](https://drive.google.com/file/d/1me7n4Qst9fB9e4CC3OtFlh3Z9QLPfZoy/view?usp=sharing)
-August 2021
-Innovation Series Hackathon was organized by Manipal Institute of Technology. Employed Document-Embedding for measuring contextual similarity between multiple pages and given search-queries.
-
-### [First Prize - HackRx by Bajaj Finserv](https://drive.google.com/file/d/1w6aqgskGyGztPpRG9ER3Gn6lhnhcYr3G/view?usp=sharing)
-July 2021
-Used Deep Learning and Classical Image processing to achieve a face verification and profile-rank estimation task. The methodology out-performed classic Deep Learning methods.
-
-### [First Prize - ACM UCM Datathon](https://devpost.com/software/decrisis)
-May 2021
-Built DeCrise, an online platform that acts as an aggregator for public support/utility services for fast-response during a major crisis or disaster.
-
-### [First Prize - CalHacks Hackathon](https://devpost.com/software/voix)
-April 2021
-Won under the Community & Civic Engagement track. Built Voix, an anonymous platform for uplifting communities and promoting civic participation using privacy-enabled machine learning.
-
-### [Runners-Up - Furniture Identification](https://www.kaggle.com/competitions/day-3-kaggle-competition/leaderboard)
-September 2020
-Employed skip-connections to generate high-performance model for furniture identification in IECSE x VISION competition.
-
-### [Runners-Up - IEEE BigMM Data Challenge](https://www.kaggle.com/c/ieee-bigmm-data-challenge/leaderboard)
-August 2020
-Came runners-up in IEEE Grand-Challenge for harassment detection on tweets. Used Elementary Classifiers for Sentiment Analysis. The team was invited to present at IEEE BigMM conference.
+Selected as MITACS Globalink Research Scholar at Concordia University, Montreal, Canada for research collaboration in AI and Privacy-Preserving Machine Learning.
 
 ### [Intel Edge AI Scholarship Recipient](https://drive.google.com/file/d/1RNC2MpG5DY6orJtmBZBHa2Gm2v8MO4CV/view?usp=sharing)
 January 2020
