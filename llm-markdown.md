@@ -282,7 +282,7 @@ Real-time face verification system with obstruction detection, spoof detection, 
 
 ### [15+ Hackathon Wins]()
 2020 - 2025
-15+ hackathon wins across ML/AI competitions including 1st place at Strong Compute (ARC AGI), HackRx (Bajaj Finserv), Code Innovation Series, ACM Datathon, CalHacks; 2nd place at IEEE BigMM, BobHacks, ShowYourSkill. Projects spanned reasoning frameworks, speech processing, optimization, and privacy-preserving ML.
+15+ hackathon wins across ML/AI competitions including 1st place at Strong Compute (ARC AGI), HackRx (Bajaj Finserv), Code Innovation Series, ACM Datathon, CalHacks, etc.; runners up in IEEE BigMM, BobHacks, ShowYourSkill, etc. Projects spanned reasoning frameworks, speech processing, optimization, and privacy-preserving ML.
 
 ### [Research & Travel Grant - AAAI Undergraduate Consortium Scholar](https://aaai-uc.github.io/2023_scholars.html#aman-priyanshu)
 February 2023
