@@ -271,7 +271,7 @@ Key Courses: Data Structures and Algorithms, Design and Analysis of Algorithms, 
 
 ### [Foundation-Sec-8B Family](https://huggingface.co/collections/fdtn-ai/foundation-sec-8b)
 April 2025 - January 2026
-Released production security LLMs (200K+ downloads) spanning Base, Instruct, and Reasoning 8B variants. Created custom RLVR (Reinforcement Learning from Verifiable Rewards) cybersecurity environments for training reasoning capabilities. Models achieve state-of-the-art performance on CTI benchmarks while being deployable on-premise for sensitive security workflows.
+Released and maintained production security LLMs (200K+ downloads) spanning Base, Instruct, and Reasoning 8B variants over a year-long development cycle. Created custom RLVR (Reinforcement Learning from Verifiable Rewards) cybersecurity environments for training reasoning capabilities. Continuously retrained and improved models based on user feedback, achieving state-of-the-art performance on CTI benchmarks while remaining deployable on-premise for sensitive security workflows.
 
 ### [ARGUS: Iterative Retrieval for Vulnerable Code Discovery](https://www.youtube.com/watch?v=Pj8yTn6CF2Y)
 August 2025
