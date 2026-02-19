@@ -29,7 +29,7 @@ Cisco AI researcher Aman Priyanshu is developing autonomous vulnerability search
 
 ### Accelerate Security Operations with Cisco's New Security-Tuned Model
 *Source: Cisco Blogs*
-Custom-tuned Foundation-Sec-8B-1.1-Instruct powering Splunk AI Assistant in Security for alert summarization, MITRE mapping, and SOC workflow acceleration, developed by Aman Priyanshu & team.
+Custom-tuned Foundation-Sec-8B-1.1-Instruct powering Splunk AI Assistant in Security for alert summarization, MITRE mapping, and SOC workflow acceleration, developed by Aman
 [Read more](https://blogs.cisco.com/security/accelerate-security-operations-with-ciscos-new-security-tuned-model)
 
 ### Meta's PromptGuard model bypassed by simple jailbreak, researchers say
