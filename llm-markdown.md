@@ -27,15 +27,20 @@ With a[Masters in Privacy Engineering from Carnegie Mellon University](https://p
 Cisco AI researcher Aman Priyanshu is developing autonomous vulnerability search agents using SLMs that mimic human analyst workflows through iterative investigation...
 [Read more](https://www.csoonline.com/article/3806891/7-top-cybersecurity-projects-for-2026.html)
 
-### Foundation-sec-8b: Cisco Foundation AI's First Open-Source Security Model
+### Accelerate Security Operations with Cisco's New Security-Tuned Model
 *Source: Cisco Blogs*
-Cisco Foundation AI's first open-source security base model, trained by Aman Priyanshu & team.
-[Read more](https://blogs.cisco.com/security/foundation-sec-cisco-foundation-ai-first-open-source-security-model)
+Custom-tuned Foundation-Sec-8B-1.1-Instruct powering Splunk AI Assistant in Security for alert summarization, MITRE mapping, and SOC workflow acceleration, developed by Aman Priyanshu & team.
+[Read more](https://blogs.cisco.com/security/accelerate-security-operations-with-ciscos-new-security-tuned-model)
 
 ### Meta's PromptGuard model bypassed by simple jailbreak, researchers say
 *Source: SC Media*
 Meta's Prompt-Guard, is vulnerable to a simple exploit with a 99.8% success rate... AI Security Researcher Aman Priyanshu wrote in a blog post...
 [Read more](https://www.scmagazine.com/news/metas-promptguard-model-bypassed-by-simple-jailbreak-researchers-say)
+
+### Foundation-sec-8b: Cisco Foundation AI's First Open-Source Security Model
+*Source: Cisco Blogs*
+Cisco Foundation AI's first open-source security base model, trained by Aman Priyanshu & team.
+[Read more](https://blogs.cisco.com/security/foundation-sec-cisco-foundation-ai-first-open-source-security-model)
 
 ### Foundation-sec-8B-Instruct: An Out-of-the-Box Security Copilot
 *Source: Cisco Blogs*
