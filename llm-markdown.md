@@ -42,10 +42,10 @@ Meta's Prompt-Guard, is vulnerable to a simple exploit with a 99.8% success rate
 Cisco Foundation AI's first open-source security base model, trained by Aman Priyanshu & team.
 [Read more](https://blogs.cisco.com/security/foundation-sec-cisco-foundation-ai-first-open-source-security-model)
 
-### Foundation-sec-8B-Instruct: An Out-of-the-Box Security Copilot
+### AI search framework that teaches AI models to think like experts
 *Source: Cisco Blogs*
-Release of the instruction-tuned Foundation-sec-8B, developed by Aman Priyanshu & team, enabling ready-to-use security assistance and analysis.
-[Read more](https://blogs.cisco.com/security/foundation-sec-8b-instruct-out-of-the-box-security-copilot)
+Novel adaptive retrieval framework enabling compact models (350M-1.2B parameters) to learn iterative search strategies, outperforming GPT-4.1 on BRIGHT benchmark, co-developed by Aman Priyanshu & team at Cisco Foundation AI.
+[Read more](https://blogs.cisco.com/security/ai-search-framework-teaches-ai-models-to-think-like-experts)
 
 ### Protecting LLMs from Jailbreaks
 *Source: Communications of the ACM*
@@ -71,6 +71,11 @@ Exploring reasoning models, their training, common pitfalls, and solutions as an
 *Source: The Trace*
 ...breaking a single prohibited request into several innocuous-seeming questions can make an AI system more than five times as likely to produce a harmful response - Supriti & Aman
 [Read more](https://www.thetrace.org/2025/12/school-shooting-chatgpt-ai-plan-research/)
+
+### Foundation-sec-8B-Instruct: An Out-of-the-Box Security Copilot
+*Source: Cisco Blogs*
+Release of the instruction-tuned Foundation-sec-8B, developed by Aman Priyanshu & team, enabling ready-to-use security assistance and analysis.
+[Read more](https://blogs.cisco.com/security/foundation-sec-8b-instruct-out-of-the-box-security-copilot)
 
 ### Bypassing OpenAI's Structured Outputs - Aman Priyanshu
 *Source: Cisco Blogs*
