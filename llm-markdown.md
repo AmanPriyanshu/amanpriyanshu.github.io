@@ -44,7 +44,7 @@ Cisco Foundation AI's first open-source security base model, trained by Aman Pri
 
 ### AI search framework that teaches AI models to think like experts
 *Source: Cisco Blogs*
-Novel adaptive retrieval framework enabling compact models (350M-1.2B parameters) to learn iterative search strategies, outperforming GPT-4.1 on BRIGHT benchmark, co-developed by Aman Priyanshu & team at Cisco Foundation AI.
+Novel adaptive retrieval framework enabling compact models (350M-1.2B parameters) to learn iterative search strategies, outperforming GPT-4.1 on BRIGHT.
 [Read more](https://blogs.cisco.com/security/ai-search-framework-teaches-ai-models-to-think-like-experts)
 
 ### Protecting LLMs from Jailbreaks
