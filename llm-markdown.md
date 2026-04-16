@@ -25,7 +25,7 @@ With a[Masters in Privacy Engineering from Carnegie Mellon University](https://p
 ### 7 top cybersecurity projects for 2026
 *Source: CSO Online*
 Cisco AI researcher Aman Priyanshu is developing autonomous vulnerability search agents using SLMs that mimic human analyst workflows through iterative investigation...
-[Read more](https://www.csoonline.com/article/3806891/7-top-cybersecurity-projects-for-2026.html)
+[Read more](https://www.csoonline.com/article/4116992/7-top-cybersecurity-projects-for-2026.html)
 
 ### Accelerate Security Operations with Cisco's New Security-Tuned Model
 *Source: Cisco Blogs*
