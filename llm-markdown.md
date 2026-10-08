@@ -61,7 +61,7 @@ Priyanshu said the biggest risk is organizations assuming their jailbreaking def
 
 ### A Carnegie Mellon Study Found Claude Picked Pricier Flights for Wealthy Users. The Gap Was Nearly $200
 *Source: Inc. Magazine*
-“We definitely expected some personalization, but not at the expense of the user’s interests,” said Aman Priyanshu and co-authors. Their study of 325K experiments across 13 AI models found systematic economic misalignment in personal AI agents.
+“We definitely expected some personalization, but not at the expense of the user’s interests,” said Aman Priyanshu and co-authors.
 [Read more](https://www.inc.com/liyana-illyas/carnegie-mellon-study-claude-pricier-flights-wealthy-users-gap-nearly-200-dollars/91416175)
 
 ### Foundation-sec-8B-Reasoning: The First Open-weight Security Reasoning Model
