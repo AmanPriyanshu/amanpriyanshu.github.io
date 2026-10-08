@@ -6,7 +6,7 @@ Hi, I'm Aman!
 
 I'm an AI Researcher at[Foundation-AI](https://fdtn.ai)([Cisco](https://www.cisco.com), via the[Robust Intelligence](https://blogs.cisco.com/news/fortifying-the-future-of-security-for-ai-cisco-announces-intent-to-acquire-robust-intelligence)acquisition), working on foundation models for security: reasoning, long-horizon planning, and agentic systems. I led the[Splunk Enterprise Security deployment](https://blogs.cisco.com/security/accelerate-security-operations-with-ciscos-new-security-tuned-model)of Foundation-Sec-8B-1.1-Instruct, where an 8B model now replaces Llama-70B and GPT-OSS-120B in production, processing millions of live security alerts at 10-15x lower cost than the variants it replaced. I'm a core contributor to Foundation-Sec-8B-Reasoning, and across our open-weight security models we've seen 500K+ downloads. Earlier, my disclosure of a 99.8% bypass of Meta's PromptGuard was covered by[SC Magazine](https://www.scmagazine.com/news/metas-promptguard-model-bypassed-by-simple-jailbreak-researchers-say)and[The Register](https://www.theregister.com/2024/07/29/meta_ai_safety/), and patched by Meta.
 
-My research spans AI for security, LLM safety, and privacy-preserving ML. I've published at USENIX PEPR and AAAI, and my AI safety work has led to invitations to[OpenAI's Red Teaming Network](https://drive.google.com/file/d/1V7x-jaOLKZyGTJNAYCH9tIwi5-zLybJJ/view?usp=sharing)and[Anthropic's Model Safety Bug Bounty Program](https://drive.google.com/file/d/1RrJK3BEZaVdvIO30q7aFIJ6z0KpyqmDu/view?usp=sharing). Day-to-day, I train and post-train models ranging from 350M to 100B+ parameters on multi-node GPU clusters, depending on the project.
+My research spans AI for security, LLM safety, and privacy-preserving ML. I've published at USENIX PEPR and AAAI, and my AI safety work has led to invitations to[OpenAI's Red Teaming Network](https://drive.google.com/file/d/1V7x-jaOLKZyGTJNAYCH9tIwi5-zLybJJ/view?usp=sharing)and[Anthropic's Model Safety Bug Bounty Program](https://drive.google.com/file/d/1RrJK3BEZaVdvIO30q7aFIJ6z0KpyqmDu/view?usp=sharing). More recently, I studied[economic misalignment in personal AI agents](https://arxiv.org/abs/2609.24927)across 325K evaluations, with findings covered by[Bloomberg](https://www.bloomberg.com/news/newsletters/2026-10-07/study-claude-chatgpt-ai-bots-offer-different-shopping-prices-based-on-wealth)and[Inc.](https://www.inc.com/liyana-illyas/carnegie-mellon-study-claude-pricier-flights-wealthy-users-gap-nearly-200-dollars/91416175). Day-to-day, I train and post-train models ranging from 350M to 100B+ parameters on multi-node GPU clusters, depending on the project.
 
 I did my[Masters in Privacy Engineering at Carnegie Mellon University](https://privacy.cs.cmu.edu), where I worked with[Professor Norman Sadeh](https://s3d.cmu.edu/people/core-faculty/sadeh-norman.html)on LLM security and[Niloofar Mireshghallah](https://mireshghallah.github.io/)on privacy-preserving ML. Currently, I build specialized RL environments for security domains: custom CTF environments for automated penetration testing curricula, vulnerability detection frameworks for iterative code patch discovery, and compact models that coordinate at scale.
 
@@ -23,6 +23,11 @@ I did my[Masters in Privacy Engineering at Carnegie Mellon University](https://p
 ---
 
 ## News & Media Coverage
+
+### Study Shows AI Chatbots Offer the Rich Higher Price Recommendations
+*Source: Bloomberg*
+“We asked a simple question: if we hand all of that to our assistant and ask it to shop for us, will it use that knowledge against us, the way a seller might?” said Cisco Foundation AI researcher Aman Priyanshu.
+[Read more](https://www.bloomberg.com/news/newsletters/2026-10-07/study-claude-chatgpt-ai-bots-offer-different-shopping-prices-based-on-wealth)
 
 ### 7 top cybersecurity projects for 2026
 *Source: CSO Online*
@@ -53,6 +58,11 @@ Novel adaptive retrieval framework enabling compact models (350M-1.2B parameters
 *Source: Communications of the ACM*
 Priyanshu said the biggest risk is organizations assuming their jailbreaking defenses are 100% effective.
 [Read more](https://cacm.acm.org/news/protecting-llms-from-jailbreaks/)
+
+### A Carnegie Mellon Study Found Claude Picked Pricier Flights for Wealthy Users. The Gap Was Nearly $200
+*Source: Inc. Magazine*
+“We definitely expected some personalization, but not at the expense of the user’s interests,” said Aman Priyanshu and co-authors. Their study of 325K experiments across 13 AI models found systematic economic misalignment in personal AI agents.
+[Read more](https://www.inc.com/liyana-illyas/carnegie-mellon-study-claude-pricier-flights-wealthy-users-gap-nearly-200-dollars/91416175)
 
 ### Foundation-sec-8B-Reasoning: The First Open-weight Security Reasoning Model
 *Source: Cisco Blogs*
